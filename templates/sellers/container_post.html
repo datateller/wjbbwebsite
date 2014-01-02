@@ -1,0 +1,51 @@
+{%extends "sellers/container_authed.html"%}
+
+{%block content%}
+<div class="container">
+  <div class="row row-offcanvas-right">
+    <div class="col-md-8">
+      <form class="form-horizontal" role="form" action="." method="post">{% csrf_token %}
+          <div id="legend" class="">
+            <legend class="">请填写表单</legend>
+          </div>
+          
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="input_addr">标题：</label>
+            <div class="col-sm-10">
+            {{form_post.title}}
+              <p class="help-block">请输入您要发布到商业信息的标题。
+              {% if form_post.title.errors %}  
+                {{ form_post.title.errors }}
+              {% endif %}
+              </p>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="input_description">商业信息：</label>
+            <div class="col-sm-10">
+              <div class="textarea">
+                {{form_post.content}}
+              </div>
+              <p class="help-block">请填写您要发布到商业信息的具体内容。
+              {% if form_post.content.errors %}  
+                {{ form_post.content.errors }}  
+              {% endif %}
+              </p>
+            </div>
+          </div>
+
+          <div class="form-group">
+          <div class="col-sm-10 col-sm-offset-5">
+            <button class="btn btn-success" type="submit" name=register>发布信息</button>
+            <a href="/sellers/" class="btn btn-success active" role="button">取消</a>
+          </div>
+          </div>
+
+      </form>
+    </div>
+  </div>
+</div>
+{%endblock%}
+
+

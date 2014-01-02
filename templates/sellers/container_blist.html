@@ -1,0 +1,21 @@
+{%extends "sellers/container_authed.html"%}
+
+{%block content%}
+<div class="container">
+  <div class="row row-offcanvas-right">
+    <div class="col-md-8">
+      <p>已发布商业信息列表</p>
+		   <div class="list-group">
+		   {%for business in blist%}
+  		  <a href="#" class="list-group-item">
+    		  <h4 class="list-group-item-heading">{{business.title}}</h4>
+    		  <p class="list-group-item-text">{{business.content}}</p>
+  		  </a>
+  		  {%endfor%}
+		   </div>
+    </div>
+  </div>
+</div>
+{%endblock%}
+
+

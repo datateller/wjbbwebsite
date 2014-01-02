@@ -1,0 +1,23 @@
+{% extends 'demo/bootstrap.html' %}
+
+{% load bootstrap3 %}
+
+{% block bootstrap3_content %}
+    <div class="container">
+        <h1>{% block title %}(no title){% endblock %}</h1>
+
+        <p>
+            <a href="/demo">home</a>
+            <a href="/demo/form">form</a>
+            <a href="/demo/form_horizontal">form_horizontal</a>
+            <a href="/demo/form_inline">form_inline</a>
+        </p>
+
+        {% bootstrap_messages %}
+
+        {% block content %}(no content){% endblock %}
+    </div>
+
+    {% bootstrap_javascript jquery=True %}
+
+{% endblock %}

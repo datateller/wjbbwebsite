@@ -1,0 +1,98 @@
+<div class="container">
+  <div class="row row-offcanvas-right">
+    <div class="col-md-8 col-md-offset-1">
+      <form class="form-horizontal" role="form" action="" method="post">{% csrf_token %}
+          <div id="legend" class="">
+            <legend class="">请填写注册表单</legend>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="input_email">Email地址：</label>
+            <div class="col-sm-10">
+            {{form_reg.email}}
+            <p class="help-block">邮件地址将作为您的登录用户名，并可用于找回密码和及时获取站里活动信息。
+            {% if form_reg.email.errors %}  
+              {{ form_reg.email.errors }}  
+            {% endif %}
+            </p>
+            </div>
+          </div>
+          
+          <div class="form-group">
+          <label class="control-label col-sm-2" for="input_pwd">登陆密码：</label>
+          <div class="col-sm-10">
+            {{form_reg.password}}
+            <p class="help-block">请使用字母，数字，和符号的组合
+            {% if form_reg.password.errors %}  
+              {{ form_reg.password.errors }}  
+            {% endif %}
+            </p>
+          </div>
+          </div>
+          
+    				 <div class="form-group">
+            <label class="control-label col-sm-2" for="input_pwd2">确认密码：</label>
+            <div class="col-sm-10">
+            {{form_reg.password_again}}
+              <p class="help-block">请再次输入上面的密码
+              {% if form_reg.password_again.errors %}
+                {{ form_reg.password_again.errors }}
+              {% endif %}
+              </p>
+            </div>
+          </div>
+          
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="input_addr">商家位置：</label>
+            <div class="col-sm-10">
+            {{form_reg.address}}
+              <p class="help-block">请输入您的详细地理位置，我们将依据此位置将您发布到商业信息推送给您附近到宝贝。
+              {% if form_reg.address.errors %}  
+                {{ form_reg.address.errors }}  
+              {% endif %}
+              </p>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="input_description">商家简介：</label>
+            <div class="col-sm-10">
+              <div class="textarea">
+                {{form_reg.description}}
+              </div>
+              <p class="help-block">请简单介绍下您的商家，以便于消费者对您有良好的第一印象。
+              {% if form_reg.description.errors %}  
+                {{ form_reg.description.errors }}  
+              {% endif %}
+              </p>
+            </div>
+          </div>
+
+        <div class="form-group">
+        <div class="col-sm-10 col-sm-offset-5">
+          <label class="checkbox"><a rel="leanModal" href="#showMoreInfo">查看本站规定及相关协议</a></label>
+          <label class="checkbox">
+          {{form_reg.agree}}
+        			  我同意本站明文规定及相关协议
+          </label>
+          <p class="help-block">
+              {% if form_reg.agree.errors %}  
+                {{ form_reg.agree.errors }}  
+              {% endif %}
+          </p>
+          </div>
+  			    </div>
+          
+          <div class="form-group">
+          <div class="col-sm-10 col-sm-offset-5">
+            <button class="btn btn-success" type="submit" name=register>注册用户</button>
+            <a href="/sellers/" class="btn btn-success active" role="button">取消</a>
+          </div>
+          </div>
+
+      </form>
+    </div>
+  </div>
+</div>
+
+
+
