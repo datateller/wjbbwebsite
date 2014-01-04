@@ -11,6 +11,5 @@ urlpatterns = patterns('',
     url(r'^index$', 'apphome.views.index', name='index'),
     url(r'^admin/', include(admin.site.urls)),
     url(r'^sellers/', include('sellers.urls')),
-    url(r'^demo/', include('demo.urls')),
     url(r'^apphome/', include('apphome.urls')),
 )
