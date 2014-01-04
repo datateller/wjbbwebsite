@@ -1,0 +1,156 @@
+{% extends "apphome/base.html" %}
+
+{% block mycss%}
+<link rel="stylesheet" href="/static/apphome/files/download.css">
+{% endblock %}
+
+{% block body_content%}
+<link rel="stylesheet" href="/static/apphome/files/download.css">
+<div class="layout-page">
+    <div class="wrapper device-list">
+        <div class="layout-301-0 device-list-item">
+            <div id="list_windows">
+                <a href="">
+                    <span class="icon icon-pc"></span>
+                    <span class="btn btn-pc" onclick="logcommit(0);">Windows客户端<s></s></span>
+                </a>
+
+                <ins class="version-text">1.6版本</ins>
+
+                <ul class="version-feature-list">
+                    <li>大小：11.2M</li>
+                    <li>适合平台：Windows 7/Vista/XP</li>
+                    <li>更新时间：2013-08-13</li>
+                </ul>
+            </div>
+        </div>
+        <!-- todo-0609 : 修改 -->
+        <div class="layout-301-0 device-list-item layout-mid">
+            <div id="list_iphone">
+                <a href="javascript:void(0)" onclick="butcli(2);logcommit(2);return false;">
+                    <span class="icon icon-mac"></span>
+                    <span class="btn btn-mac" href="javascript:void(0)" onclick="butcli(2);logcommit(2);return false;">ios版<s></s></span>
+                </a>
+
+                <ins class="version-text">1.6版本<span class="version_new"></span></ins>
+
+                <ul class="version-feature-list">
+                    <li>大小：18M</li>
+                    <li>适合平台：iOS 5.0.1及更高版本</li>
+                    <li>更新时间：2013-10-07</li>
+                </ul>
+            </div>
+            <div id="list_ipad">
+                <a onclick="butcli(4);return false;" href="javascript:void(0)">
+                    <span class="btn btn-ios-pad" onclick="butcli(4);return false;" href="javascript:void(0)">iPad版<s></s></span>
+                </a>
+
+                <!-- todo-0609 : 新增 -->
+                <ins class="version-text">1.1版本</ins>
+
+                <ul class="version-feature-list">
+                    <li>大小：11.1M</li>
+                    <li>适合平台：iOS 5.0.1及更高版本</li>
+                    <li>更新时间：2013-08-28</li>
+                </ul>
+            </div>
+        </div>
+        <!-- todo-0609 : 修改 -->
+        <div class="layout-302 device-list-item">
+            <div id="list_android">
+                <a href="http://xzh2.cloudapp.net:8000/static/apk/WJBBNew.apk">
+                    <span class="icon icon-andriod"></span>
+                    <span class="btn btn-andriod" href="javascript:void(0)" onclick="logcommit(1);return false;">Android版<s></s></span>
+                </a>
+
+                <ins class="version-text">1.6版本<span class="version_new"></span></ins>
+
+                <ul class="version-feature-list">
+                    <li>大小：8.0M</li>
+                    <li>适合平台：Android 2.2及更高版本</li>
+                    <li>更新时间：2013-09-25</li>
+                </ul>
+            </div>
+            <!--<a onclick="butcli(3);return false;" href="javascript:void(0)">
+                <span class="btn btn-andriod-special" onclick="butcli(3);logcommit(5);return false;" href="javascript:void(0)">Android特别测试版<s></s></span>
+            </a>
+            <ins class="version-text version-desc">支持手机号注册登录微云</ins>
+            <ul class="version-feature-list">
+                <li>大小：5.54M</li>
+                <li>适合平台：Android 2.2及更高版本</li>
+                <li>更新时间：2013-01-30</li>
+            </ul>-->
+
+        </div>
+    </div>
+
+    <div id="show_diag2" class="get_app_layer" style="display:none;">
+        <del onclick="javascript:senddone()"></del>
+        <h2 id="mobileType">微云iPad版</h2>
+        <div class="get_url_area">
+            <div class="register_area">
+                <div id="second_download_method2">
+                    <h3>方法一：前往App Store下载</h3>
+                    <p class="des"><a href="javascript:void(0)">点击开始下载</a></p>
+                </div>
+
+            </div>
+        </div>
+        <div id="thirdAll2" class="get_code_area">
+            <h3>方法二：二维码获取</h3>
+            <p class="des">使用手机上的二维码扫描软件拍摄以下二维码即可立即下载。</p>
+            <img src="http://imgcache.qq.com/vipstyle/nr/box/portal/demoImg/weiyunQR_app_web.png" width="105" height="105">
+        </div>
+    </div>
+
+
+
+
+    <div id="show_diag" class="get_app_layer download-android" style="display:none;">
+        <del onclick="javascript:senddone()"></del>
+        <h2 id="mobileType">微云android版</h2>
+        <div class="get_url_area">
+            <div class="register_area">
+                <!-- update jin 030722 新增 -->
+                <div id="sendto-phone" class="sendto-phone">
+                    <h3>方法一：发送到手机</h3>
+                    <div class="clear">
+                        <p>点击发送，安装包将发送到您的手机空间或手机QQ上。</p>
+                        <a href="javascript:sendto_phone();" class="button">发送</a>
+                    </div>
+                </div>
+                <!-- update jin 030722 修改文案为方法二 -->
+                <div id="first_download_method" class="register_form" style="display:;">
+                    <h3>方法二：短信获取下载地址</h3>
+                    <p class="des">请填写手机号，下载地址将发送到您的手机上。</p>
+                    <input type="tel" class="text" placeholder="请输入手机号码" id="mobile_num">
+                    <a id="sendMsg" href="javascript:void(0)" class="button">发送短信</a>
+                    <p class="error_des" style="display:none;">您输入的电话号码有误，请重新输入。</p>
+                </div>
+                <div style="display:none;" class="register_success">
+                    <h3>方法一：手机短信获取</h3>
+                    <p class="des">您将收到一条包含微云下载地址的短信，点击短信中的地址即可开始下载。</p>
+                    <p><a href="#" class="button" onclick="javascript:senddone();return false;">完成</a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;<a onclick="javascript:tryagain();return false;" href="javascript:void(0)">再次发送短信</a></p>
+                </div>
+                <div style="display:none;" id="second_download_method">
+                    <h3>方法二：下载安装包</h3>
+                    <p class="des"><a href="javascript:void(0)" class="__download">点击开始下载</a></p>
+                </div>
+            </div>
+        </div>
+        <div id="thirdAll" class="get_code_area">
+            <!-- update jin 030722 移动，并修改文案为方法三，新增download-install样式 -->
+            <div class="download-install">
+                <h3>方法三：下载安装包</h3>
+                <p class="des"><a href="javascript:void(0)" class="__download">点击开始下载</a></p>
+            </div>
+            <!-- update jin 030722 修改文案为方法四 -->
+            <h3>方法四：二维码获取</h3>
+            <p class="des">使用手机上的二维码扫描软件拍摄以下二维码即可立即下载。</p>
+            <img src="http://imgcache.qq.com/vipstyle/nr/box/portal/demoImg/weiyunQR_app_web.png" width="105" height="105">
+        </div>
+    </div>
+</div>
+
+{% endblock%}

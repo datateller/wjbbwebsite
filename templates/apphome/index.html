@@ -1,0 +1,193 @@
+{% extends "apphome/base.html" %}
+
+{% block mycss%}
+<link rel="stylesheet" href="/static/apphome/files/index.css">
+{% endblock %}
+
+{% block body_content%}
+<div class="slide">
+  <div id="home_slide" class="slide-cnt">
+	<ul class="slide-list">
+	<li style="background-image: url(http://imgcache.qq.com/vipstyle/nr/box/new_portal/images/banner2.jpg); z-index: 1; background-position: 50% 50%; background-repeat: no-repeat no-repeat;"></li>
+    	</ul>
+  </div>
+
+  <div id="download_other" class="home_download" style="display: block;">
+    <div class="slider-download"></div>
+    <a class="slider-download-btn" href="/apphome/download"><span>立即下载</span></a>
+  </div>
+  <div id="download_link" class="home_player" style="display: none;">
+    <!--<a href="#" class="video-play-btn">播放<s></s></a>-->
+    <a class="other-download-btn" href="/apphome/download" target="_blank"></a>
+  </div>
+</div><!-- .slide -->
+
+<div class="layout-page">
+<div class="layout-group">
+	<div class="intro-section intro-vdisk-section">
+		<h3>育儿知识推送</h3>
+		<h4>智能、高效</h4>
+		<p>
+			基于我们海量的知识库，结合您家宝贝的成长状况，智能推送相关育儿知识。
+		</p>
+		<span class="sevice-pic"><img src="/static/apphome/files/vdisk.png"><s></s></span>
+		<span class="icon icon_vdisk"><s></s></span>
+	</div>
+
+	<div class="intro-section text_right intro-vablum-section">
+		<h3>周边信息推送</h3>
+		<h4>优惠信息、最新动态</h4>
+		<p>
+			在不同设备中拍摄的照片，并按照拍摄时间和来源设备进行编排整理。微云相册只通过 wifi 传输，不会产生流量。
+		</p>
+		<span class="sevice-pic"><img src="/static/apphome/files/vablum.png"><s></s></span>
+		<span class="icon icon_vablum"><s></s></span>
+	</div>
+
+	<div class="intro-section intro-vtransfer-section">
+		<h3>知识收藏 </h3>
+		<h4>讲感兴趣的育儿知识保存到云端</h4>
+		<p>
+			随时随地访问以收藏的知识。
+		</p>
+		<span class="sevice-pic"><img src="/static/apphome/files/vtransfer.png"><s></s></span>
+		<span class="icon icon_vtransfer"><s></s></span>
+	</div>
+
+</div>
+</div>
+
+
+<script type="text/javascript" src="/static/apphome/files/jquery-1.6.4.js"></script>
+<script type="text/javascript" src="/static/apphome/files/sea.js"></script>
+<script type="text/javascript" src="/static/apphome/files/qqviplib_2.0.0.js"></script>
+<script type="text/javascript" src="/static/apphome/files/qqdisk_web_common_wy.js"></script>
+<script type="text/javascript" src="/static/apphome/files/tcss.ping.js"></script>
+<script>
+write_footer("footer");
+WEIYUN_WEB.Utils.killFocus();
+(function(){
+    if(!Function.prototype.bind){
+        Function.prototype.bind = function(obj){
+            var owner = this,args = Array.prototype.slice.call(arguments),callobj = Array.prototype.shift.call(args);
+            return function(e){e=e||top.window.event||window.event;owner.apply(callobj,args.concat([e]));};
+        };
+    }
+})();
+var glume = function(id){
+    this.ctn = document.getElementById(id);
+    this.adLis = null;
+    this.btns = null;
+    this.animStep = 0.1;//动画速度0.1～0.9
+    this.switchSpeed = 5;//自动播放间隔(s)
+    this.defOpacity = 1;
+    this.tmpOpacity = 1;
+    this.crtIndex = 0;
+    this.crtLi = null;
+    this.adLength = 0;
+    this.timerAnim = null;
+    this.timerSwitch = null;
+    this.init();
+};
+var glume = function(id){
+    this.ctn = document.getElementById(id);
+    this.adLis = null;
+    this.btns = null;
+    this.downBtn = null;
+    this.downOther = null;
+    this.animStep = 0.1;//动画速度0.1～0.9
+    this.switchSpeed = 5;//自动播放间隔(s)
+    this.defOpacity = 1;
+    this.tmpOpacity = 1;
+    this.crtIndex = 0;
+    this.crtLi = null;
+    this.adLength = 0;
+    this.timerAnim = null;
+    this.timerSwitch = null;
+    this.init();
+};
+glume.prototype = {
+    fnAnim:function(toIndex){
+        if(this.timerAnim){window.clearTimeout(this.timerAnim);}
+        if(this.tmpOpacity <= 0){
+            this.crtLi.style.opacity = this.tmpOpacity = this.defOpacity;
+            this.crtLi.style.filter = 'Alpha(Opacity=' + this.defOpacity*100 + ')';
+            this.crtLi.style.zIndex = 0;
+            this.crtIndex = toIndex;
+            return;
+        }
+        this.crtLi.style.opacity = this.tmpOpacity = this.tmpOpacity - this.animStep;
+        this.crtLi.style.filter = 'Alpha(Opacity=' + this.tmpOpacity*100 + ')';
+        this.timerAnim = window.setTimeout(this.fnAnim.bind(this,toIndex),50);
+    },
+    fnNextIndex:function(){
+        return (this.crtIndex >= this.adLength-1)?0:this.crtIndex+1;
+    },
+    fnSwitch:function(toIndex){
+        if(this.crtIndex==toIndex){return;}
+        this.crtLi = this.adLis[this.crtIndex];
+        for(var i=0;i<this.adLength;i++){
+            this.adLis[i].style.zIndex = 0;
+        }
+        this.crtLi.style.zIndex = 2;
+        this.adLis[toIndex].style.zIndex = 1;
+        for(var i=0;i<this.adLength;i++){
+            this.btns[i].className = '';
+        }
+        this.btns[toIndex].className = 'on'
+        this.fnAnim(toIndex);
+        if(toIndex > 0){
+            this.downOther.style.display = 'block';
+            this.downBtn.style.display = 'none';
+        }else{
+            this.downOther.style.display = 'none';
+            this.downBtn.style.display = 'block';
+        }
+    },
+    fnAutoPlay:function(){
+        this.fnSwitch(this.fnNextIndex());
+    },
+    fnPlay:function(){
+        this.timerSwitch = window.setInterval(this.fnAutoPlay.bind(this),this.switchSpeed*1000);
+    },
+    fnStopPlay:function(){
+        window.clearTimeout(this.timerSwitch);
+    },
+    init:function(){
+        this.adLis = this.ctn.getElementsByTagName('li');
+        this.btns = this.ctn.getElementsByTagName('cite')[0].getElementsByTagName('span');
+        this.downBtn = document.getElementById('download_link');
+        this.downOther = document.getElementById('download_other');
+        this.adLength = this.adLis.length;
+        for(var i=0,l=this.btns.length;i<l;i++){
+            with({i:i}){
+                this.btns[i].index = i;
+                this.btns[i].onclick = this.fnSwitch.bind(this,i);
+                this.btns[i].onclick = this.fnSwitch.bind(this,i);
+            }
+        }
+        this.adLis[this.crtIndex].style.zIndex = 2;
+        this.fnPlay();
+        this.ctn.onmouseover = this.fnStopPlay.bind(this);
+        this.ctn.onmouseout = this.fnPlay.bind(this);
+
+        this.downBtn.style.display = 'block';
+    }
+};
+var player1 = new glume('home_slide');
+
+//视频
+//WEIYUN_WEB.Utils.initVideo();
+
+(function(){
+    if (typeof pgvMain == 'function') {
+        pgvMain("", {
+            tagParamName: 'WYTAG',
+            virtualURL: 'index.html',
+            virtualDomain: "www.weiyun.com"
+        });
+    }
+})();
+</script>
+{% endblock %}
+

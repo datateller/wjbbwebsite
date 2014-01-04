@@ -1,0 +1,250 @@
+/* slide */
+.slide{max-width:1600px;height:500px;margin:0 auto 110px;position:relative;overflow:hidden;min-width:1002px;}
+.slide-cnt{width:100%;height:100%;position:absolute;overflow:hidden;z-index:2;left:0;top:0;}
+.slide-cnt .slide-list{width:100%;height:100%;position:relative;}
+.slide-cnt .slide-list li{width:100%;height:100%;position:absolute;}
+.slide-cnt .slide-list li a{width:100%;height:100%;display:block;cursor:pointer;}
+.slide-cnt .slide-list li a:hover{text-decoration:none;}
+.slide-cnt .slide-page{position:absolute;z-index:10;left:50%;bottom:30px;margin-left:-52px;}
+.slide-cnt .slide-page span{display:block;float:left;width:30px;height:30px;margin-right:5px;overflow:hidden;text-indent:-30px;background:url(http://imgcache.qq.com/vipstyle/nr/box/new_portal/images/slider-sprites.png) -30px 0 no-repeat;font-style:normal;cursor:pointer;}
+.slide-cnt .slide-page span.on{background-position:0 0;color:#fff;}
+/* 下载 */
+.home_download{width:842px;margin:0 auto;position:relative;z-index:10;padding-top:85px;}
+.slider-download{
+	width:418px;
+	height:246px;
+	background:url(http://imgcache.qq.com/vipstyle/nr/box/new_portal/images/slider-download.png) 0 0 no-repeat;
+	_background:url(about:blank);
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://imgcache.qq.com/vipstyle/nr/box/new_portal/images/slider-download.png',sizingMethod='scale');
+}
+.slider-download-btn{
+	position:absolute;
+	bottom:0;
+	left:0;
+	display:block;
+	width:190px;
+	height:60px;
+	_background:url(about:blank);
+	overflow:hidden;
+}
+.slider-download-btn span{
+	position:absolute;
+	top:-999em;
+	left:0;
+}
+
+/* 布局 */
+.layout-group:after{content:"\20";display:block;clear:both;height:0;}
+.layout-group{*zoom:1}
+.layout-page{margin:0 auto 86px;width:842px;}
+.layout-705-0{width:705px;float:left;margin-right:0px;}
+.layout-280{width: 280px; float: left;}
+
+.intro-section{
+	position:relative;
+	min-height:228px;
+	margin-bottom:122px;
+	border-bottom:1px solid #e5e1db;
+	font-family:'\5FAE\8F6F\96C5\9ED1','\534E\6587\7EC6\9ED1','\9ED1\4F53';
+	_height:228px;
+	*zoom:1;
+}
+.intro-section h3{
+	font:500 30px '\5FAE\8F6F\96C5\9ED1','\9ED1\4F53';
+	color:#333;
+}
+.intro-section h4{
+	margin-bottom:20px;
+	font:500 20px '\5FAE\8F6F\96C5\9ED1','\534E\6587\7EC6\9ED1','\5B8B\4F53';
+	color:#4B4A4A;
+}
+.intro-section p{
+	font-size:14px;
+	font-family:'\5FAE\8F6F\96C5\9ED1','\5B8B\4F53';
+	color:#7E7E7E;
+}
+.intro-section .icon{
+	width:64px;
+	height:64px;
+}
+
+.intro-section .sevice-pic{
+	position:absolute;
+}
+
+/* icon */
+.icon{position:relative;display:block;*zoom:1;}
+.icon s{
+	position:absolute;
+	display:block;
+	width:100%;
+	height:100%;
+	left:0;
+	top:0;
+	background:url(http://imgcache.qq.com/vipstyle/nr/box/new_portal/images/icon-sprites.png) 0 0 no-repeat;
+}
+
+.icon_vablum s{
+	background-position:0 -68px;
+}
+.icon_vtransfer s{
+	background-position:0 -147px;
+}
+.icon_clipboard s{
+	background-position:0 -220px;
+}
+.intro-vdisk-section, 
+.intro-vtransfer-section{
+	padding-right:460px;
+}
+.intro-vtransfer-section{
+	min-height:255px;
+	_height:255px;
+}
+.intro-clipboard-section{
+	border-bottom:0;
+}
+.intro-vdisk-section h3, 
+.intro-vdisk-section h4, 
+.intro-vtransfer-section h3,
+.intro-vtransfer-section h4{
+	padding-left:74px;
+}
+.intro-vdisk-section .icon, 
+.intro-vtransfer-section .icon{
+	position:absolute;
+	left:0;
+	top:10px;
+}
+.intro-vdisk-section .sevice-pic, 
+.intro-vtransfer-section .sevice-pic{
+	right:0;
+	top:0;
+}
+.intro-vdisk-section .sevice-pic{
+	top:-84px;
+}
+.intro-vtransfer-section .sevice-pic{
+	top:-10px;
+}
+.intro-vablum-section,
+.intro-clipboard-section{
+	padding-left:460px;
+	padding-bottom:30px;
+}
+.intro-vablum-section h3,
+.intro-vablum-section h4,
+.intro-clipboard-section h3,
+.intro-clipboard-section h4{
+	padding-right:74px;
+}
+
+.intro-clipboard-section .icon,
+.intro-vablum-section .icon{
+	position:absolute;
+	right:0;
+	top:6px;
+}
+
+.intro-clipboard-section .sevice-pic,
+.intro-vablum-section .sevice-pic{
+	left:0;
+	top:-22px;
+}
+/* title视频 */
+.home_player{
+	position:relative;
+	z-index:9;
+}
+.slide s{
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	background:url(http://imgcache.qq.com/vipstyle/nr/box/new_portal/images/slider-player.png) 0 0 no-repeat;
+	_background:url(http://imgcache.qq.com/vipstyle/nr/box/new_portal/images/slider-player-ie6.png) 0 0 no-repeat;
+	cursor:pointer;
+}
+.video-play-btn{
+	position:relative;
+	margin:180px 0 0 740px;
+	display:block;
+	width:119px;
+	height:119px;
+	line-height:119px;
+	text-align:center;
+}
+.video-play-btn:hover s{
+	background-position:0 -131px;
+}
+.mask{
+	width:100%;
+	height:100%;
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:10;
+	background:#000;
+	opacity:.8;
+	filter:alpha(opacity=80);
+}
+.video-box{
+	position:fixed;
+	_position:absolute;
+	left:50%;
+	top:50%;
+	z-index:11;
+	width:721px;
+	height:454px;
+	margin:-227px 0 0 -360px;
+	background:#FFF;
+	box-shadow:1px 1px 20px #333;
+	background:none\9;
+}
+.video-box object,
+.video-box embed{
+	margin:10px;
+}
+.video-box-ie{
+	position:absolute;
+	top:0;
+	left:0;
+	width:711px;
+	height:448px;
+	width:720px;
+	height:454px;
+	background:#FFF;
+	/* filter:progid:DXImageTransform.Microsoft.Shadow(color=#666666,direction=0,strength=5) progid:DXImageTransform.Microsoft.Shadow(color=#666666,direction=90,strength=5) progid:DXImageTransform.Microsoft.Shadow(color=#666666,direction=180,strength=5) progid:DXImageTransform.Microsoft.Shadow(color=#666666,direction=270,strength=5); */
+	*zoom:1;
+}
+
+.other-download-btn{
+	position:absolute;
+	z-index:11;
+	top:339px;
+	left:50%;
+	margin-left: -95px;
+	width:190px;
+	height:66px;
+	cursor:pointer;
+	background:url(about:blank);
+}
+
+.video-box-close{
+	position:absolute;
+	top:-16px;
+	right:-16px;
+	display:block;
+	width:31px;
+	height:31px;
+	line-height:31px;
+	text-align:center;
+	color:#FFF;
+	background:url(http://imgcache.qq.com/vipstyle/nr/box/new_portal/images/slider-player.png) -129px 0 no-repeat;
+	_background:url(http://imgcache.qq.com/vipstyle/nr/box/new_portal/images/slider-player-ie6.png) -129px 0 no-repeat;
+}
+.video-box-close:hover{
+	text-decoration:none;
+}
+/*  |xGv00|7209cc032cf76203fb8b82f86ca2866c */

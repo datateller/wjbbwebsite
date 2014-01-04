@@ -1,0 +1,45 @@
+<html>
+<head>
+<title>我家宝贝</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<meta name="Keywords" content="">
+<meta name="Description" content="">
+<link rel="stylesheet" href="/static/apphome/files/base.css">
+{% block mycss%} {% endblock %}
+<script src="/static/apphome/files/cdn_djl.js" type="text/javascript" async=""></script>
+<script type="text/javascript" language="javascript" src="/static/apphome/files/wy_nav.js"></script>
+</head>
+
+<body screen_capture_injected="true">
+
+<div class="header">
+<div class="header-cnt">
+	<h1><a class="logo" target="_blank" href=""></a></h1>	
+	<div class="nav">
+	<ul>
+		<li><a class="current" href="index">首页</a> <span>|</span></li>
+		<li><a href="/apphome/download">下载</a> <span>|</span></li>
+		<li><a href="">帮助</a> <span>|</span></li>
+	</ul>
+	</div>
+</div>
+</div>
+
+{% block body_content%} {% endblock %}
+
+<div id="footer" class="footer">
+<div class="inner">
+<p>Copyright ©2013 我家宝贝 All Rights Reserved.</p>
+<p>我家宝贝 版权所有</p>
+</div>
+</div>
+
+<script type="text/javascript" src="/static/apphome/files/jquery-1.6.4.js"></script>
+<script type="text/javascript" src="/static/apphome/files/sea.js"></script>
+<script type="text/javascript" src="/static/apphome/files/qqviplib_2.0.0.js"></script>
+<script type="text/javascript" src="/static/apphome/files/qqdisk_web_common_wy.js"></script>
+<script type="text/javascript" src="/static/apphome/files/tcss.ping.js"></script>
+
+</body>
+</html>

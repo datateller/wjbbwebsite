@@ -1,0 +1,97 @@
+img{-ms-interpolation-mode:bicubic}
+section,article,aside,header,footer,nav,figure{display:block}
+body,h1,h2,h3,h4,h5,h6,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td,figure{margin:0;padding:0}
+body,button,input,select,textarea{font:12px/1.5 arial}
+h1,h2,h3,h4,h5,h6,button,input,select,textarea{font-size:100%}
+address,cite,dfn,em,var{font-style:normal}
+code,kbd,pre,samp{font-family:courier new,courier,monospace}
+small{font-size:12px}
+ul,ol{list-style:none}
+a{text-decoration:none}
+a:hover{text-decoration:underline}
+sup{vertical-align:text-top}
+sub{vertical-align:text-bottom}
+legend{color:#000}
+fieldset,img{border:0}
+table{border-collapse:collapse;border-spacing:0}
+input::-moz-focus-inner,button::-moz-focus-inner{border:0;padding:0;outline:0}
+.group,.clear,.lay_main_cnt{*zoom:1}
+.group:after,.clear:after,.lay_main_cnt:after{content:'\20';display:block;clear:both;height:0}
+body .hide,body .none{display:none}
+body .ellipsis{overflow:hidden;-o-text-overflow:ellipsis;text-overflow:ellipsis;white-space:nowrap;_width:100%;word-wrap:normal}
+body{color:#666;background:#FFF;}
+a{color:#1D719E}
+.clear{*zoom:1}
+.clear:after{content:'\20';display:block;clear:both;height:0}
+.mb{margin-bottom:15px}
+.float_right{float:right}
+.text_right{text-align:right}
+.margin_left_15{margin-left:15px}
+.margin_lr_5{margin:0 5px}
+
+/* header */
+.header{
+	max-width:1600px;
+	min-width:1002px;
+	margin:0 auto;
+	padding:13px 0 13px;
+	background:#212225 url(http://imgcache.qq.com/vipstyle/nr/box/new_portal/images/metro-line.jpg) 0 bottom repeat-x;
+}
+.header-cnt{
+	position:relative;
+	width:842px;
+	margin:0 auto;
+	zoom:1;
+}
+.logo{
+	position:relative;
+	display:block;
+	width:234px;
+	height:61px;
+	/*background:url(http://su.bdimg.com/static/superpage/img/logo_white.png) 50% 50% no-repeat;*/
+	background:url(logo.jpg) 50% 50% no-repeat;
+	_background:url(about:blank) 0 0 no-repeat;
+	*zoom:1;
+	_cursor:pointer;
+}
+.logo span{
+	position:absolute;
+	top:-100em;
+}
+.nav{
+	position:absolute;
+	right:0;
+	bottom:22px;
+	font:500 16px '微软雅黑','华文细黑';
+}
+.nav a{
+	color:#ABABAB;
+}
+.nav a:hover,.nav .current{text-decoration:underline;color:#FFF}
+.nav span{
+	padding:0 10px;
+}
+.nav li{
+	float:left;
+	margin:0 0 0 10px;
+	*display:inline;
+	zoom:1;
+}
+/* footer */
+.footer{
+	width:842px;
+	margin:0 auto 25px;
+	padding:15px 0 0;
+	text-align:center;
+	border-top:1px solid #E4E0DA;
+	color:#989898;
+}
+.footer p{
+	padding:6px 0;
+}
+.footer a{
+	color:#989898;
+}
+.banner-ad{
+	max-width:1600px;min-width:1002px;margin:0 auto;display:block;background:url(http://imgcache.qq.com/vipstyle/nr/box/new_portal/images/bnnr-ad-10t-bg.png) 0 0 repeat-x;text-align:center;
+}

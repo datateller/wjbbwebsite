@@ -1,0 +1,162 @@
+.wrapper:after,.clear:after{content:"\20";display:block;clear:both;height:0;}
+.wrapper,.clear{*zoom:1;}
+/* layout */
+.layout-page{margin:0 auto;width:904px;position:relative;}
+.layout-301-0{width:301px;float:left;margin-right:0px;}
+.layout-302{width:300px;float:left;}
+
+.layout-mid{
+	border:1px solid #E4E0DB;
+	border-width:0 1px;
+}
+/* icon */
+.icon{
+	display:block;
+	width:128px;
+	height:128px;
+	background:url(http://imgcache.qq.com/vipstyle/nr/box/new_portal/images/download-sprites.png) -999em -999em no-repeat;
+}
+.icon-pc{
+	background-position:-48px -221px;
+}
+.icon-andriod{
+	background-position:-364px -221px;
+}
+.icon-mac{
+	background-position:-683px -221px;
+}
+/* btn */
+.btn{
+	position:relative;
+	display:block;
+	width:224px;
+	height:60px;
+	zoom:1;
+	font:600 18px '微软雅黑','华文细黑';
+}
+.btn s{
+	position:absolute;
+	display:block;
+	width:100%;
+	height:100%;
+	left:0;
+	top:0;
+	background:url(http://imgcache.qq.com/vipstyle/nr/box/new_portal/images/download-btns.png?t=13013013) -999em -999em no-repeat;
+	cursor:pointer;
+}
+.btn-pc s{background-position:0 0}
+.btn-andriod s{background-position:0 -63px}
+.btn-andriod-special s{background-position:0 -577px}
+.btn-ios-pad s{background-position:0 -705px;}
+.btn-mac s{background-position:0 -128px;}
+.btn-web{width:167px;}
+.btn-web s{background-position:0 -193px}
+a:hover .btn-pc s{background-position:0 -260px}
+a:hover .btn-andriod s{background-position:0 -324px}
+a:hover .btn-mac s{background-position:0 -388px}
+a:hover .btn-andriod-special:hover s{background-position:0 -641px}
+a:hover .btn-ios-pad s{background-position:0 -769px;}
+.btn-web:hover s{background-position:0 -451px}
+/* other */
+.version-text{
+	display:block;
+	margin-bottom:15px;
+	font:500 18px '微软雅黑','华文细黑';
+	text-decoration:none;
+	color:#333;
+}
+.version-desc{width:224px;margin-top:-9px;font:600 12px '宋体';/*text-align:center;*/color:#7d7d7d;}
+.version-text .version_new{
+	display:inline-block;
+	width:31px;
+	height:18px;
+	font-size:0;
+	background:url(http://imgcache.qq.com/vipstyle/nr/box/new_portal/images/portal_new.png) no-repeat 3px top;
+}
+.version-feature-list{
+	margin-bottom:15px;
+}
+.version-feature-list li{
+	padding:2px 0;
+	color:#7D7D7D;
+}
+.version-feature-list .other{
+	padding-top:10px;
+}
+.version-feature-list .other a{
+	text-decoration:underline;
+}
+.device-list{
+	margin-top:60px;
+	margin-bottom:60px;
+	padding-bottom:90px;
+	background:url(http://imgcache.qq.com/vipstyle/nr/box/new_portal/images/download-sprites.png) 50% 100% no-repeat;
+}
+.device-list-item{
+	min-height:500px;
+	_height:500px;
+	background:#FFF;
+}
+.device-list-item a:hover{
+	cursor:pointer;
+	*zoom:1;
+}
+
+.device-list .icon,
+.device-list .btn{
+	margin:0 auto 17px;
+}
+
+.device-list .version-feature-list,
+.device-list .version-text{
+	margin-left:45px;
+}
+.section-web-pic,
+.section-web-cnt{
+	float:left;
+	width:370px;
+}
+.section-web-pic{
+	width:528px;
+	height:451px;
+	text-align:center;
+}
+.get_app_layer{position:absolute;left:50%;top:70px;width:580px;height:260px;margin-left:-320px;padding:15px 30px 30px;border:2px solid #1e3a58;border-radius:10px;box-shadow:0 0 15px #777;background:#fff; }
+.get_app_layer h2{margin-bottom:20px;font-size:20px;font-family:Microsoft Yahei;}
+.get_app_layer h3{margin:0 0 5px;color:#2685c3;font:bold 17px Microsoft Yahei;}
+.get_app_layer del{position:absolute;width:29px;height:29px;text-align:center;right:-14px;top:-14px;color:#fff;background-image:url(http://imgcache.qq.com/vipstyle/nr/box/portal/img/icon_close.png);font:normal 25px/28px Arial;text-decoration:none;cursor:pointer;
+_background: none;
+_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://imgcache.qq.com/vipstyle/nr/box/portal/img/icon_close.png', sizingMethod='crop');
+}
+.get_app_layer .button{ display:inline-block;width:82px;height:30px;line-height:30px; text-align:center; vertical-align:middle;border:none;color:#fff;font-weight:bold;background:url(http://imgcache.qq.com/vipstyle/nr/box/portal/img/bg_index.png) no-repeat 0 -61px;}
+.get_app_layer .button:hover{background-position:0 -91px; text-decoration:none;}
+.get_app_layer .btn_finsh{background-position:0 -91px;}
+.get_app_layer .text{width:150px;height:23px;line-height:23px;margin-right:5px;padding-left:5px;background:#ededed;vertical-align:middle;}
+.get_app_layer .type_num{font:normal 18px Microsoft Yahei;}
+.get_app_layer .des{line-height:22px;margin:0 0 10px 0;color:#999;}
+.get_app_layer .des a{font-family:SimSun;}
+.get_app_layer .error_des{margin-top:5px;font-size:12px;color:#f00;}
+.get_app_layer .get_apk{padding-top:20px;}
+.get_app_layer .get_url_area{float:left;width:255px;height:200px;}
+.get_app_layer .get_code_area{float:right;width:270px;padding:0 0 0 30px;border-left:1px solid #e2e2e2;}
+.get_app_layer .get_url_area h2{font-weight:bold;}
+
+/* update jin 030722 新增 */
+.download-android{
+	height:310px;
+}
+.sendto-phone{
+	padding-bottom: 15px;
+}
+.sendto-phone p{
+	width: 160px;
+	float: left;
+	color: #999;
+}
+.sendto-phone a{
+	float: left;
+	margin-left: 7px;
+}
+.download-android .download-install{
+	padding-bottom: 20px;
+}/*  |xGv00|45e6507fd60277e491515b30e0620c86 */

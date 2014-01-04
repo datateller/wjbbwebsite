@@ -1,0 +1,2 @@
+
+function write_footer(id){var _footTpl="<footer><div class=\"inner\"><p><a href=\"http://www.tencent.com/\" target=\"_blank\">关于腾讯</a>&nbsp;|&nbsp;<a href=\"http://www.weiyun.com/other/xy.html\" target=\"_blank\">服务条款</a>&nbsp;|&nbsp;<a href=\"http://service.qq.com/\" target=\"_blank\">客服中心</a>&nbsp;|&nbsp;<a href=\"http://www.miibeian.gov.cn/\" target=\"_blank\">粤B2-20090059-86号</a></p><p>Copyright &copy; 1998 - 2013 Tencent. All Rights Reserved.</p><p>腾讯公司 版权所有</p></div></footer>";document.getElementById(id).innerHTML=_footTpl;}
