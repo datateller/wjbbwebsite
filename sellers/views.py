@@ -6,7 +6,7 @@ from django.views.generic.edit import FormView, ProcessFormView
 from django.contrib.auth.models import User 
 from django.contrib.auth import authenticate, login as user_login, logout as user_logout
 from django import forms
-from .forms import RegisterForm, PostForm
+from .forms import *
 from .models import *
 
 
@@ -28,6 +28,7 @@ class HomeView(TemplateView):
                     print(user)
                     user_login(self.request, user)
                     context['username_authed'] = login_username
+                    context['bpost_count'] = 5
         ###process logout form
         if "logout" in self.request.GET:
             user_logout(self.request)
@@ -125,7 +126,7 @@ class RegisterView(FormView):
 
 class PostView(FormView):
     template_name = 'sellers/post.html'
-    form_class = PostForm
+    form_class = PostModelForm
     def get_context_data(self, **kwargs):
         context = super(PostView, self).get_context_data(**kwargs)
         if self.request.method == 'GET':
@@ -141,24 +142,17 @@ class PostView(FormView):
             ###process logout form
             if "logout" in self.request.GET:
                 user_logout(self.request)
-            context['form_post'] = PostForm()
+            context['form_post'] = PostModelForm()
             
-        ###process register form
         if self.request.method == 'POST':
-            print(self.request.POST)
-            form_post = PostForm(self.request.POST)
-            print(form_post)
+            form_post = PostModelForm(self.request.POST, self.request.FILES)
             if form_post.is_valid():
-                print(form_post)
-                seller_business = SellerBusiness.objects.create()
-                seller_business.title = form_post.cleaned_data['title']
-                seller_business.content = form_post.cleaned_data['content']
-                seller_business.save()
-                context['form_post'] = form_post
+                temp = form_post.save(commit=False)
+                temp.seller = self.request.user
+                temp.save()
             else:
-                print(form_post)
+                print(form_post.errors)
                 context['form_post'] = form_post
-            
         return context
 
     def form_valid(self, form):
@@ -166,15 +160,14 @@ class PostView(FormView):
         # It should return an HttpResponse.
         ###process register form
         if self.request.method == 'POST':
-            print(self.request.POST)
-            form_post = PostForm(self.request.POST)
-            print(form_post)
+            form_post = PostModelForm(self.request.POST, self.request.FILES)
             if form_post.is_valid():
-                print(form_post)
-                seller_business = SellerBusiness.objects.create(seller = self.request.user)
-                seller_business.title = form_post.cleaned_data['title']
-                seller_business.content = form_post.cleaned_data['content']
-                seller_business.save()
+                temp = form_post.save(commit=False)
+                temp.seller = self.request.user
+                if self.request.FILES:
+                    temp.photo = self.request.FILES['photo']
+                temp.save()
             else:
-                print(form_post)
+                print(form_post.errors)
+                print("form_post not valid")
         return super(PostView, self).form_valid(form)
