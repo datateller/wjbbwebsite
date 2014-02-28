@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 '''
 Created on 2013年12月31日
 
@@ -37,6 +38,13 @@ class RegisterForm(forms.Form):
 #     photo = forms.ImageField()
     
 class PostModelForm(forms.ModelForm):
+    def clean_photo(self):
+        photo = self.cleaned_data.get('photo', False)
+        if photo:
+            print "###photo size:", photo._size
+            if photo._size > 4 * 1024 * 1024:
+                print "###photo too size"
+            return photo
     class Meta:
         model = SellerBusiness
         fields = ('title', 'content', 'photo')
