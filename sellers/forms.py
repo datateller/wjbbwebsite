@@ -47,8 +47,13 @@ class PostModelForm(forms.ModelForm):
             return photo
     class Meta:
         model = SellerBusiness
-        fields = ('title', 'content', 'photo')
+        fields = ('title', 'content', 'photo', 'photo1')
         widgets = {
             'title':forms.TextInput(attrs={'placeholder':'请输入您的标题' , ' class':'form-control','required':'required','autofocus':'autofocus'}),
-            'content':forms.Textarea(attrs={'placeholder':'请输入您要发布的具体信息' , ' class':'form-control','required':'required'}), }
+            'content':forms.Textarea(attrs={'placeholder':'请输入您要发布的具体信息' , ' class':'form-control','required':'required'}), 
+	    #'photo':forms.FileInput(attrs={'onclick':'addImage()'}),
+	    'photo':forms.FileInput(attrs={'onclick':'document.getElementById(\'id_photo1\').style=\'visibility:visible\';'}),
+	    'photo1':forms.FileInput(attrs={'style':'visibility:hidden', 'onclick':'document.getElementById(\'id_photo2\').style=\'visibility:visible\';' }),
+	    'photo2':forms.FileInput(attrs={'style':'visibility:hidden'})
+		}
     
