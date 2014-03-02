@@ -41,10 +41,28 @@ class PostModelForm(forms.ModelForm):
     def clean_photo(self):
         photo = self.cleaned_data.get('photo', False)
         if photo:
-            print "###photo size:", photo._size
+            #print "###photo size:", photo._size
             if photo._size > 4 * 1024 * 1024:
-                print "###photo too size"
+                #print "###photo too large"
+		raise forms.ValidationError("first photo is too large")
             return photo
+    def clean_photo1(self):
+        photo1 = self.cleaned_data.get('photo1', False)
+        if photo1:
+            #print "###photo size:", photo._size
+            if photo1._size > 4 * 1024 * 1024:
+                #print "###photo1 too large"
+		raise forms.ValidationError("second photo is too large")
+            return photo1
+    def clean_photo2(self):
+	photo2 = self.cleaned_data.get('photo2', False)
+	if photo2:
+	    if photo2._size > 4 * 1024 * 1024:
+		#print "###photo2 too large"
+		raise forms.ValidationError("third photo is too large")
+	    return photo2
+	
+
     class Meta:
         model = SellerBusiness
         fields = ('title', 'content', 'photo', 'photo1')

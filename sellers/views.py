@@ -151,7 +151,6 @@ class PostView(FormView):
                 temp = form_post.save(commit=False)
                 temp.seller = self.request.user
                 temp.save()
-	        print "get context data post form"
             else:
                 print(form_post.errors)
                 context['form_post'] = form_post
@@ -167,14 +166,14 @@ class PostView(FormView):
                 temp = form_post.save(commit=False)
                 temp.seller = self.request.user
                 if self.request.FILES:
-	  	    print list(self.request.FILES.keys())
                     temp.photo = self.request.FILES['photo']
-                    temp.photo1 = self.request.FILES['photo1']
 		    
+		    if 'photo1' in list(self.request.FILES):
+			temp.photo1 = self.request.FILES['photo1']
  		    if 'photo2' in list(self.request.FILES):
                         temp.photo2 = self.request.FILES['photo2']
                 temp.save()
-		print "form valid post form"
+		#print "form valid post form"
             else:
                 print(form_post.errors)
                 print("form_post not valid")
