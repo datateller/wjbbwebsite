@@ -13,4 +13,5 @@ urlpatterns = patterns('',
     url(r'^admin/', include(admin.site.urls)),
     url(r'^sellers/', include('sellers.urls')),
     url(r'^apphome/', include('apphome.urls')),
+    url(r'^accounts/', include('registration.backends.default.urls')),
 ) + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

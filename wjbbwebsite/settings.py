@@ -31,6 +31,27 @@ TEMPLATE_DEBUG = True
 
 ALLOWED_HOSTS = []
 
+ACCOUNT_ACTIVATION_DAYS=7
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+
+# Host for sending email.
+#EMAIL_HOST = 'localhost'
+EMAIL_HOST = 'smtp.gmail.com'
+#EMAIL_HOST = 'smtp.qq.com'
+
+# Port for sending email.
+#EMAIL_PORT = 25
+#EMAIL_PORT = 25
+EMAIL_PORT = 587
+
+# Optional SMTP authentication information for EMAIL_HOST.
+EMAIL_HOST_USER = ''
+EMAIL_HOST_PASSWORD = ''
+EMAIL_USE_TLS = True
+
+LOGIN_REDIRECT_URL = '/sellers/'
+
 
 # Application definition
 
@@ -41,7 +62,9 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    #'django.contrib.sites',
     'sellers',
+    'registration',
 )
 
 MIDDLEWARE_CLASSES = (

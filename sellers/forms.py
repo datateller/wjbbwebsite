@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 '''
 Created on 2013年12月31日
 
@@ -37,10 +38,40 @@ class RegisterForm(forms.Form):
 #     photo = forms.ImageField()
     
 class PostModelForm(forms.ModelForm):
+    def clean_photo(self):
+        photo = self.cleaned_data.get('photo', False)
+        if photo:
+            #print "###photo size:", photo._size
+            if photo._size > 4 * 1024 * 1024:
+                #print "###photo too large"
+		raise forms.ValidationError("first photo is too large")
+            return photo
+    def clean_photo1(self):
+        photo1 = self.cleaned_data.get('photo1', False)
+        if photo1:
+            #print "###photo size:", photo._size
+            if photo1._size > 4 * 1024 * 1024:
+                #print "###photo1 too large"
+		raise forms.ValidationError("second photo is too large")
+            return photo1
+    def clean_photo2(self):
+	photo2 = self.cleaned_data.get('photo2', False)
+	if photo2:
+	    if photo2._size > 4 * 1024 * 1024:
+		#print "###photo2 too large"
+		raise forms.ValidationError("third photo is too large")
+	    return photo2
+	
+
     class Meta:
         model = SellerBusiness
-        fields = ('title', 'content', 'photo')
+        fields = ('title', 'content', 'photo', 'photo1')
         widgets = {
             'title':forms.TextInput(attrs={'placeholder':'请输入您的标题' , ' class':'form-control','required':'required','autofocus':'autofocus'}),
-            'content':forms.Textarea(attrs={'placeholder':'请输入您要发布的具体信息' , ' class':'form-control','required':'required'}), }
+            'content':forms.Textarea(attrs={'placeholder':'请输入您要发布的具体信息' , ' class':'form-control','required':'required'}), 
+	    #'photo':forms.FileInput(attrs={'onclick':'addImage()'}),
+	    'photo':forms.FileInput(attrs={'onclick':'document.getElementById(\'id_photo1\').style=\'visibility:visible\';'}),
+	    'photo1':forms.FileInput(attrs={'style':'visibility:hidden', 'onclick':'document.getElementById(\'id_photo2\').style=\'visibility:visible\';' }),
+	    'photo2':forms.FileInput(attrs={'style':'visibility:hidden'})
+		}
     
