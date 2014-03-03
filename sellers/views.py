@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from django.shortcuts import render
 from django.http import *
 from django.views.generic import FormView
@@ -166,7 +167,13 @@ class PostView(FormView):
                 temp.seller = self.request.user
                 if self.request.FILES:
                     temp.photo = self.request.FILES['photo']
+		    
+		    if 'photo1' in list(self.request.FILES):
+			temp.photo1 = self.request.FILES['photo1']
+ 		    if 'photo2' in list(self.request.FILES):
+                        temp.photo2 = self.request.FILES['photo2']
                 temp.save()
+		#print "form valid post form"
             else:
                 print(form_post.errors)
                 print("form_post not valid")
