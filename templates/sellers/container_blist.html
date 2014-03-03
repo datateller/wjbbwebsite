@@ -12,6 +12,13 @@
     		  <p class="list-group-item-text">{{business.content}}</p>
   		  </a>
   		  <img src="/media/{{business.photo}}" class="img-responsive" alt="Responsive image">
+		  {% if business.photo1 %}
+  		  <img src="/media/{{business.photo1}}" class="img-responsive" alt="Responsive image1">
+		 
+		  {% endif %}
+		  {% if business.photo2 %}
+  		  <img src="/media/{{business.photo2}}" class="img-responsive" alt="Responsive image2">
+		  {% endif %}
   		  {%endfor%}
 		   </div>
     </div>
